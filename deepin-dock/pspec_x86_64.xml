@@ -1,0 +1,131 @@
+<PISI>
+    <Source>
+        <Name>deepin-dock</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Deepin Dock is the dock of Deepin Desktop Environment.</Summary>
+        <Description xml:lang="en">Deepin Dock is the dock of Deepin Desktop Environment.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-dock</Name>
+        <Summary xml:lang="en">Deepin Dock is the dock of Deepin Desktop Environment.</Summary>
+        <Description xml:lang="en">Deepin Dock is the dock of Deepin Desktop Environment.
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="config">/etc/dde-dock/indicator/keybord_layout.json</Path>
+            <Path fileType="executable">/usr/bin/dde-dock</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/libdatetime.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/libkeyboard-layout.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/libonboard.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/liboverlay-warning.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/libshutdown.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/libtrash.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/libtray.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/system-trays/libnetwork.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/system-trays/libpower.so</Path>
+            <Path fileType="library">/usr/lib/dde-dock/plugins/system-trays/libsound.so</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.dde.Dock.service</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_af.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_am_ET.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ar.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ast.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_az.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_bg.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_bn.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ca.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_cs.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_da.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_de.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_el.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_en_AU.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_en_GB.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_eo.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_es.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_es_419.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_et.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_fa.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_fi.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_fi_FI.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_fr.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_gl.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_gl_ES.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_he.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_hi_IN.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_hr.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_hu.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_hy.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_id.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_it.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ja.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_kn_IN.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ko.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ku_IQ.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_lo.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_lt.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ml.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_mn.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ms.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_nb.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ne.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_nl.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_pa.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_pam.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_pl.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_pt.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ro.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ru.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_si.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_sk.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_sl.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_sq.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_sr.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_sv.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_sw.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ta.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_tr.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ug.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_uk.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_ur.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_vi.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_zh_HK.qm</Path>
+            <Path fileType="data">/usr/share/dde-dock/translations/dde-dock_zh_TW.qm</Path>
+            <Path fileType="data">/usr/share/polkit-1/actions/com.deepin.dde.dock.overlay.policy</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>deepin-dock-devel</Name>
+        <Summary xml:lang="en">Development files for deepin-dock</Summary>
+        <Description xml:lang="en">Deepin Dock is the dock of Deepin Desktop Environment.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">deepin-dock</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/dde-dock/constants.h</Path>
+            <Path fileType="header">/usr/include/dde-dock/pluginproxyinterface.h</Path>
+            <Path fileType="header">/usr/include/dde-dock/pluginsiteminterface.h</Path>
+            <Path fileType="library">/usr/lib64/cmake/DdeDock/DdeDockConfig.cmake</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/dde-dock.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>5.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

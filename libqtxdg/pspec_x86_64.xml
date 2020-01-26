@@ -1,0 +1,86 @@
+<PISI>
+    <Source>
+        <Name>libqtxdg</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>LGPL-2.1-or-later</License>
+        <PartOf>programming.library</PartOf>
+        <Summary xml:lang="en">A Qt 5 implementation of freedesktop.org XDG specifications.</Summary>
+        <Description xml:lang="en">A Qt 5 implementation of freedesktop.org XDG specifications.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libqtxdg</Name>
+        <Summary xml:lang="en">A Qt 5 implementation of freedesktop.org XDG specifications.</Summary>
+        <Description xml:lang="en">A Qt 5 implementation of freedesktop.org XDG specifications.
+</Description>
+        <PartOf>programming.library</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/qtxdg-mat</Path>
+            <Path fileType="library">/usr/lib64/libQt5Xdg.so.3</Path>
+            <Path fileType="library">/usr/lib64/libQt5Xdg.so.3.4.0</Path>
+            <Path fileType="library">/usr/lib64/libQt5XdgIconLoader.so.3</Path>
+            <Path fileType="library">/usr/lib64/libQt5XdgIconLoader.so.3.4.0</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/iconengines/libQt5XdgIconPlugin.so</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>libqtxdg-devel</Name>
+        <Summary xml:lang="en">Development files for libqtxdg</Summary>
+        <Description xml:lang="en">A Qt 5 implementation of freedesktop.org XDG specifications.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">libqtxdg</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/qt5xdg/XdgAction</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XdgAutoStart</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XdgDesktopFile</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XdgDirs</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XdgIcon</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XdgMenu</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XdgMenuWidget</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XdgMimeApps</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XdgMimeType</Path>
+            <Path fileType="header">/usr/include/qt5xdg/XmlHelper</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgaction.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgautostart.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgdesktopfile.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgdirs.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgicon.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgmacros.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgmenu.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgmenuwidget.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgmimeapps.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xdgmimetype.h</Path>
+            <Path fileType="header">/usr/include/qt5xdg/xmlhelper.h</Path>
+            <Path fileType="header">/usr/include/qt5xdgiconloader/3.4.0/private/xdgiconloader/xdgiconloader_p.h</Path>
+            <Path fileType="header">/usr/include/qt5xdgiconloader/xdgiconloader_export.h</Path>
+            <Path fileType="library">/usr/lib64/libQt5Xdg.so</Path>
+            <Path fileType="library">/usr/lib64/libQt5XdgIconLoader.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/Qt5Xdg.pc</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/Qt5XdgIconLoader.pc</Path>
+            <Path fileType="data">/usr/share/cmake/qt5xdg/qt5xdg-config-version.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/qt5xdg/qt5xdg-config.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/qt5xdg/qt5xdg-targets-relwithdebinfo.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/qt5xdg/qt5xdg-targets.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/qt5xdgiconloader/qt5xdgiconloader-config-version.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/qt5xdgiconloader/qt5xdgiconloader-config.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/qt5xdgiconloader/qt5xdgiconloader-targets-relwithdebinfo.cmake</Path>
+            <Path fileType="data">/usr/share/cmake/qt5xdgiconloader/qt5xdgiconloader-targets.cmake</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>3.4.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

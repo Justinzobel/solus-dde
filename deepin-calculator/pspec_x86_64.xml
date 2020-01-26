@@ -1,0 +1,89 @@
+<PISI>
+    <Source>
+        <Name>deepin-calculator</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin</PartOf>
+        <Summary xml:lang="en">An easy to use calculator for ordinary users.</Summary>
+        <Description xml:lang="en">Deepin calculator is an easy to use calculator for ordinary users.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-calculator</Name>
+        <Summary xml:lang="en">An easy to use calculator for ordinary users.</Summary>
+        <Description xml:lang="en">Deepin calculator is an easy to use calculator for ordinary users.
+</Description>
+        <PartOf>desktop.deepin</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/deepin-calculator</Path>
+            <Path fileType="data">/usr/share/applications/deepin-calculator.desktop</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_af.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_am_ET.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ar.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ast.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_az.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_bg.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_bn.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ca.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_cs.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_da.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_de.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_el.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_es.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_es_419.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_et.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_fa.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_fi.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_fr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_fr_FR.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_gl_ES.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_he.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_hi_IN.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_hr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_hu.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_id.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_it.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ko.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ku_IQ.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ky.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_lt.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ml.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_mn.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ms.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_nb.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ne.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_nl.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_pl.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_pt.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ro.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ru.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_sk.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_sl.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_sq.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_sr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_sv.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_tr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_ug.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_uk.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_zh_HK.qm</Path>
+            <Path fileType="data">/usr/share/deepin-calculator/translations/deepin-calculator_zh_TW.qm</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/deepin-calculator.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>5.0.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

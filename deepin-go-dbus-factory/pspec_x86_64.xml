@@ -2,15 +2,15 @@
     <Source>
         <Name>deepin-go-dbus-factory</Name>
         <Packager>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>Undeclared</License>
         <PartOf>desktop.deepin.core</PartOf>
         <Summary xml:lang="en">GO DBus factory for Deepin</Summary>
         <Description xml:lang="en">GO DBus factory for Deepin
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>deepin-go-dbus-factory</Name>
@@ -119,6 +119,9 @@
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/com.deepin.wm/Wm.xml</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/com.deepin.wm/auto.go</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/com.deepin.wm/config.json</Path>
+            <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/com.deepin.wmswitcher/WMSwitcher.xml</Path>
+            <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/com.deepin.wmswitcher/auto.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/com.deepin.wmswitcher/config.json</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/net.hadess.sensorproxy/SensorProxy.xml</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/net.hadess.sensorproxy/auto.go</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/net.hadess.sensorproxy/config.json</Path>
@@ -253,18 +256,21 @@
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.freedesktop.udisks2/auto.go</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.freedesktop.udisks2/config.json</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.freedesktop.udisks2/manual.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.kde.kwin/Compositor.xml</Path>
+            <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.kde.kwin/auto.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.kde.kwin/config.json</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.mpris.mediaplayer2/MediaPlayer.xml</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.mpris.mediaplayer2/auto.go</Path>
             <Path fileType="data">/usr/share/gocode/src/github.com/linuxdeepin/go-dbus-factory/org.mpris.mediaplayer2/config.json</Path>
         </Files>
     </Package>
     <History>
-        <Update release="23">
-            <Date>2019-03-20</Date>
-            <Version>0.4.0</Version>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>0.9.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>

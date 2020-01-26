@@ -1,0 +1,58 @@
+<PISI>
+    <Source>
+        <Name>deepin-picker</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin</PartOf>
+        <Summary xml:lang="en">Simplest color picker.</Summary>
+        <Description xml:lang="en">Deepin Picker is a fast screen color picking tool developed by Deepin Technology. The RGB, RGBA, HEX, CMYK and HSV code can be obtained according color picked and auto saved to the clipboard.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-picker</Name>
+        <Summary xml:lang="en">Simplest color picker.</Summary>
+        <Description xml:lang="en">Deepin Picker is a fast screen color picking tool developed by Deepin Technology. The RGB, RGBA, HEX, CMYK and HSV code can be obtained according color picked and auto saved to the clipboard.
+</Description>
+        <PartOf>desktop.deepin</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/deepin-picker</Path>
+            <Path fileType="data">/usr/share/applications/deepin-picker.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.Picker.service</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_ar.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_ast.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_cs.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_de.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_en_US.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_es.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_es_419.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_fr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_he.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_hr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_id.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_it.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_lt.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_ru.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_sk.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_sl.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_tr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_uk.qm</Path>
+            <Path fileType="data">/usr/share/deepin-picker/translations/deepin-picker_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/deepin-picker.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>5.0.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

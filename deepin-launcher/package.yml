@@ -1,0 +1,25 @@
+name       : deepin-launcher
+version    : 5.0.0
+release    : 1
+source     :
+    - git|https://github.com/linuxdeepin/dde-launcher.git : 5.0.0
+license    : GPL-3.0-or-later
+component  : desktop.deepin.core
+summary    : Launcher for the Deepin Desktop Environment.
+description: |
+    Launcher for the Deepin Desktop Environment.
+builddeps  :
+    - pkgconfig(dframeworkdbus)
+    - pkgconfig(dtkwidget)
+    - pkgconfig(gsettings-qt)
+    - pkgconfig(Qt5Svg)
+    - pkgconfig(Qt5X11Extras)
+    - pkgconfig(xcb-ewmh)
+    - pkgconfig(xcb)
+    - qt5-tools-devel
+setup      : |
+    %cmake_ninja -DWITHOUT_UNINSTALL_APP=1
+build      : |
+    %ninja_build
+install    : |
+    INSTALL_ROOT=$installdir %ninja_install

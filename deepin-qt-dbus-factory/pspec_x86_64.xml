@@ -1,0 +1,159 @@
+<PISI>
+    <Source>
+        <Name>deepin-qt-dbus-factory</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Automatically storing of automatically generated Qt DBus code used by Deepin.</Summary>
+        <Description xml:lang="en">Automatically storing of automatically generated Qt DBus code used by Deepin.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-qt-dbus-factory</Name>
+        <Summary xml:lang="en">Automatically storing of automatically generated Qt DBus code used by Deepin.</Summary>
+        <Description xml:lang="en">Automatically storing of automatically generated Qt DBus code used by Deepin.
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/libdframeworkdbus.so.2</Path>
+            <Path fileType="library">/usr/lib64/libdframeworkdbus.so.2.0</Path>
+            <Path fileType="library">/usr/lib64/libdframeworkdbus.so.2.0.0</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>deepin-qt-dbus-factory-devel</Name>
+        <Summary xml:lang="en">Development files for deepin-qt-dbus-factory</Summary>
+        <Description xml:lang="en">Automatically storing of automatically generated Qt DBus code used by Deepin.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">deepin-qt-dbus-factory</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/DBusExtended</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/DBusExtendedAbstractInterface</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_anything.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_api_xeventmonitor.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_appstore_metadata.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_chromeextension_tabslimit.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_accounts.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_accounts_user.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_appearance.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_audio.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_audio_meter.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_audio_sink.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_audio_sinkinput.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_audio_source.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_bluetooth.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_display.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_display_monitor.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_fprintd.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_fprintd_device.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_grub2.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_grub2_theme.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_imageblur.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_inputdevice_keyboard.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_inputdevice_mouse.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_inputdevice_touchpad.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_inputdevice_trackpoint.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_inputdevice_wacom.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_inputdevices.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_keybinding.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_langselector.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_logined.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_mime.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_mime_media.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_miracast.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_network.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_network_connectionsession.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_network_proxychains.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_power.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_search.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_soundeffect.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_systeminfo.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_daemon_timedate.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_dde_daemon_dock.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_dde_daemon_dock_entry.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_dde_launcher.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_dde_notification.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_deepinid.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_lastore_job.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_lastore_jobmanager.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_lastore_smartmirror.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_lastore_updater.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_lastoresessionhelper.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_sessionmanager.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_startmanager.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_sync_daemon.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_system_systempower.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_wm.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/com_deepin_wmswitcher.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/dbusextended.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/dbusextendedpendingcallwatcher_p.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_ayatana_bamf_matcher.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_ayatana_bamf_window.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_freedesktop_displaymanager.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_freedesktop_displaymanager_seat.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_freedesktop_displaymanager_session.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_freedesktop_login1.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_freedesktop_notifications.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_freedesktop_policykit1.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/org_kde_statusnotifieritem.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/appscgroupinfo.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/appscgroupinfolist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/appupdateinfolist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/arealist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/audioport.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/audioportlist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/batterypercentageinfo.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/batterypresentinfo.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/batterystateinfo.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/brightnessmap.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/chrometablist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/dbusimagelist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/dbusobjectpathlist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/dbustooltip.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/dockrect.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/inputdevicelist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/intstring.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/keyboardlayoutlist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/linkinfolist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/localelist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/mirrorinfolist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/networkavailablekeys.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/networkconnectiondata.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/networkerrors.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/propertylist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/qvariantlist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/qvariantmap.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/reflectlist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/resolution.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/resolutionlist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/rotationlist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/screenrect.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/searchmap.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/sinkinfolist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/wacomdevicelist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/windowinfomap.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/windowlist.h</Path>
+            <Path fileType="header">/usr/include/libdframeworkdbus-2.0/types/zoneinfo.h</Path>
+            <Path fileType="library">/usr/lib64/cmake/DFrameworkdbus/DFrameworkdbusConfig.cmake</Path>
+            <Path fileType="library">/usr/lib64/libdframeworkdbus.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/dframeworkdbus.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>5.0.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

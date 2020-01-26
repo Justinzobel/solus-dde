@@ -1,0 +1,232 @@
+<PISI>
+    <Source>
+        <Name>deepin-api</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Go-lang bindings for deepin-daemon</Summary>
+        <Description xml:lang="en">Go-lang bindings for deepin-daemon
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-api</Name>
+        <Summary xml:lang="en">Go-lang bindings for deepin-daemon</Summary>
+        <Description xml:lang="en">Go-lang bindings for deepin-daemon
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/background.jpg</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_c.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_e.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_n.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_ne.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_nw.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_s.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_se.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_sw.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/select_w.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_c.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_e.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_n.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_ne.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_nw.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_s.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_se.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_sw.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/terminal_box_w.png</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/theme.txt</Path>
+            <Path fileType="data">/boot/grub/themes/deepin-fallback/unifont-regular-16.pf2</Path>
+            <Path fileType="data">/lib64/systemd/system/deepin-login-sound.service</Path>
+            <Path fileType="data">/lib64/systemd/system/deepin-shutdown-sound.service</Path>
+            <Path fileType="executable">/usr/bin/dde-open</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/adjust-grub-theme</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/cursor-helper</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/deepin-shutdown-sound</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/device</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/graphic</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/gtk-thumbnailer</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/hans2pinyin</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/image-blur</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/image-blur-helper</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/locale-helper</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/lunar-calendar</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/sound-theme-player</Path>
+            <Path fileType="library">/usr/lib64/deepin-api/thumbnailer</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.api.CursorHelper.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.api.Graphic.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.api.LunarCalendar.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.api.Pinyin.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.api.Device.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.api.LocaleHelper.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.api.SoundThemePlayer.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.api.Device.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.api.LocaleHelper.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.api.SoundThemePlayer.conf</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/background.origin.jpg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/antergos.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/arch.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/chakra.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/debian.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/deepin.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/elementary.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/fedora.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/gentoo.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/korora.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/kubuntu.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/lfs.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/linux-mint.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/lubuntu.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/mageia.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/manjaro.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/opensuse.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/os.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/ubuntu.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/windows.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/resources/os-logos/xubuntu.svg</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/terminal_box_c.png</Path>
+            <Path fileType="data">/usr/share/dde-api/data/grub-themes/deepin/theme.txt.tpl</Path>
+            <Path fileType="data">/usr/share/dde-api/data/pkg_depends</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/drandr/crtc.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/drandr/drandr.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/drandr/mode.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/drandr/mode_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/drandr/output.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/keyboard.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/libinput.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/mouse.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/touchpad.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/touchscreen.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/button_map.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/button_map.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/button_map.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/byte_op.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/keyboard.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/keyboard.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/list.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/list.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/property.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/property.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/type.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/type.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/utils/wrapper.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/dxinput/wacom.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/i18n_dependent/i18n_dependent.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/i18n_dependent/parse_file.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/i18n_dependent/sourcehansans.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/i18n_dependent/testdata/i18n_dependent.json</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/i18n_dependent/testdata/language_info.json</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/lang_info/lang_info.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/lang_info/lang_info_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/lang_info/testdata/SUPPORTED</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/lang_info/testdata/language_info.json</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/language_support/lang_support.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/language_support/lang_support_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/language_support/testdata/pkg_depends</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/powersupply/battery/battery.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/powersupply/battery/battery_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/powersupply/battery/status.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/powersupply/powersupply.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/powersupply/powersupply_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/session/session_register.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/soundutils/shutdown.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/soundutils/soundplayer.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/theme_thumb/common/common.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/theme_thumb/cursor/cursor.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/theme_thumb/cursor/load.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/theme_thumb/gtk/gtk.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/theme_thumb/icon/icon.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/theme_thumb/thumb.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/cursor.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/cursor.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/cursor.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/gtk2.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/gtk2_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/gtk3.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/gtk3_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/qt_cursor.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/scanner.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/scanner_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Icons/Icon1/cursors/left_ptr</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Icons/Icon1/index.theme</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Icons/Icon2/cursors/left_ptr</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Icons/Icon2/index.theme</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk1/cursors/left_ptr</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk1/gtk-2.0/gtkrc</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk1/gtk-3.0/settings.ini</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk1/index.theme</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk1/metacity-1/metacity-theme-3.xml</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk2/cursors/left_ptr</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk2/gtk-2.0/gtkrc</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk2/gtk-3.0/settings.ini</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk2/index.theme</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/Themes/Gtk2/metacity-1/metacity-theme-3.xml</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/gtk_paper.theme</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/gtk_paper_hidden.theme</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/icon_deepin.theme</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/scanner/testdata/icon_deepin_hidden.theme</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/settings.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/testdata/gtkrc-2.0</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/testdata/settings.ini</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/theme.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/themes/theme_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/cursor/cursor.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/cursor/thumbnail.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/cursor/xcur2png.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/font/font.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/font/thumbnail.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/font/thumbnail.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/font/wrapper.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/gtk/gtk.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/icon/icon.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/icon/icon.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/icon/icon.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/icon/thumbnail.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/icon/wrapper.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/images/convert.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/images/convert.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/images/images.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/images/wrapper.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/loader/loader.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/pdf/pdf.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/pdf/thumbnail.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/pdf/thumbnail.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/pdf/wrapper.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/text/text.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/text/text.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/text/text.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/text/wrapper.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/thumbnails.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/thumbnails/thumbnails_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/userenv/testdata/t1.txt</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/userenv/userenv.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/dde/api/userenv/userenv_test.go</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/actions/media-autorun-nop.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/actions/media-autorun-open-folder.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/actions/media-autorun-nop.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/actions/media-autorun-open-folder.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/actions/media-autorun-nop.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/actions/media-autorun-open-folder.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/actions/media-autorun-nop.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/actions/media-autorun-open-folder.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/media-autorun-nop.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/media-autorun-open-folder.svg</Path>
+            <Path fileType="data">/usr/share/polkit-1/actions/com.deepin.api.device.unblock-bluetooth-devices.policy</Path>
+            <Path fileType="data">/usr/share/polkit-1/actions/com.deepin.api.locale-helper.policy</Path>
+            <Path fileType="data">/var/lib/polkit-1/localauthority/10-vendor.d/com.deepin.api.device.pkla</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>5.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

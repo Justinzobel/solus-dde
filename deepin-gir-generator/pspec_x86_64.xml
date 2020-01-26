@@ -1,0 +1,70 @@
+<PISI>
+    <Source>
+        <Name>deepin-gir-generator</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Static golang bindings for GObject.</Summary>
+        <Description xml:lang="en">Static golang bindings for GObject.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-gir-generator</Name>
+        <Summary xml:lang="en">Static golang bindings for GObject.</Summary>
+        <Description xml:lang="en">Static golang bindings for GObject.
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/gir-generator</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gio-2.0/.gitignore</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gio-2.0/config.json</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gio-2.0/gdk_workaround.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gio-2.0/gio.gen.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gio-2.0/gio.gen.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gio-2.0/gio.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gio-2.0/gio.go.in</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gio-2.0/gio_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/.gitignore</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/config.json</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/fixwarning.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/glib.gen.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/glib.gen.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/glib.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/glib.go.in</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/keyfile_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/misc.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/glib-2.0/testdata/deepin-terminal.desktop</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/.gitignore</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/config.json</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/fix_gobject.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/gobject.gen.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/gobject.gen.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/gobject.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/gobject.go.in</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/gobject.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/gobject_test.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/holder.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gobject-2.0/param.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gudev-1.0/config.json</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gudev-1.0/fixwarning.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gudev-1.0/gudev.gen.c</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gudev-1.0/gudev.gen.h</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gudev-1.0/gudev.go</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gudev-1.0/gudev.go.in</Path>
+            <Path fileType="data">/usr/share/gocode/src/pkg.deepin.io/gir/gudev-1.0/gudev_test.go</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>2.0.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
