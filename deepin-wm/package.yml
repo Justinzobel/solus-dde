@@ -26,6 +26,7 @@ builddeps  :
 rundeps    :
     - deepin-desktop-schemas
 setup      : |
+    %patch -p1 < $pkgfiles/001-vala.patch
     %autogen --disable-schemas-compile
 build      : |
     %make
