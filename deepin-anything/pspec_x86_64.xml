@@ -18,9 +18,6 @@
         <Description xml:lang="en">Something like everything, but nothing is really like anything...
 </Description>
         <PartOf>desktop.deepin</PartOf>
-        <RuntimeDependencies>
-            <Dependency release="1">deepin-anything-devel</Dependency>
-        </RuntimeDependencies>
         <Files>
             <Path fileType="config">/etc/dbus-1/system.d/com.deepin.anything.conf</Path>
             <Path fileType="data">/lib/systemd/system/deepin-anything-monitor.service</Path>
@@ -28,40 +25,6 @@
             <Path fileType="executable">/usr/bin/deepin-anything-monitor</Path>
             <Path fileType="executable">/usr/bin/deepin-anything-tool</Path>
             <Path fileType="executable">/usr/bin/deepin-anything-tool-ionice</Path>
-            <Path fileType="library">/usr/lib/deepin-anything-server-lib/plugins/handlers/README.txt</Path>
-            <Path fileType="library">/usr/lib/deepin-anything-server-lib/plugins/handlers/libupdate-lft.so</Path>
-            <Path fileType="library">/usr/lib/libanything.so.1</Path>
-            <Path fileType="library">/usr/lib/libanything.so.1.0</Path>
-            <Path fileType="library">/usr/lib/libanything.so.1.0.0</Path>
-            <Path fileType="library">/usr/lib/libdeepin-anything-server-lib.so.0</Path>
-            <Path fileType="library">/usr/lib/libdeepin-anything-server-lib.so.0.0</Path>
-            <Path fileType="library">/usr/lib/libdeepin-anything-server-lib.so.0.0.1</Path>
-            <Path fileType="library">/usr/lib/modules-load.d/anything.conf</Path>
-            <Path fileType="library">/usr/lib/sysusers.d/deepin-anything-monitor.conf</Path>
-            <Path fileType="data">/usr/share/dbus-1/interfaces/com.deepin.anything.xml</Path>
-            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.anything.service</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/Makefile</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/arg_extractor.c</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/arg_extractor.h</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_change.c</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_change.h</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_change_consts.h</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_change_uapi.h</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_kretprobes.c</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_utils.c</Path>
-            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_utils.h</Path>
-        </Files>
-    </Package>
-    <Package>
-        <Name>deepin-anything-devel</Name>
-        <Summary xml:lang="en">Development files for deepin-anything</Summary>
-        <Description xml:lang="en">Something like everything, but nothing is really like anything...
-</Description>
-        <PartOf>programming.devel</PartOf>
-        <RuntimeDependencies>
-            <Dependency release="1">deepin-anything</Dependency>
-        </RuntimeDependencies>
-        <Files>
             <Path fileType="header">/usr/include/deepin-anything-server/dasdefine.h</Path>
             <Path fileType="header">/usr/include/deepin-anything-server/dasfactory.h</Path>
             <Path fileType="header">/usr/include/deepin-anything-server/dasinterface.h</Path>
@@ -78,13 +41,35 @@
             <Path fileType="header">/usr/include/deepin-anything/vfs_change_consts.h</Path>
             <Path fileType="header">/usr/include/deepin-anything/vfs_change_uapi.h</Path>
             <Path fileType="header">/usr/include/deepin-anything/walkdir.h</Path>
+            <Path fileType="library">/usr/lib/deepin-anything-server-lib/plugins/handlers/README.txt</Path>
+            <Path fileType="library">/usr/lib/deepin-anything-server-lib/plugins/handlers/libupdate-lft.so</Path>
             <Path fileType="library">/usr/lib/libanything.so</Path>
+            <Path fileType="library">/usr/lib/libanything.so.1</Path>
+            <Path fileType="library">/usr/lib/libanything.so.1.0</Path>
+            <Path fileType="library">/usr/lib/libanything.so.1.0.0</Path>
             <Path fileType="library">/usr/lib/libdeepin-anything-server-lib.so</Path>
+            <Path fileType="library">/usr/lib/libdeepin-anything-server-lib.so.0</Path>
+            <Path fileType="library">/usr/lib/libdeepin-anything-server-lib.so.0.0</Path>
+            <Path fileType="library">/usr/lib/libdeepin-anything-server-lib.so.0.0.1</Path>
+            <Path fileType="library">/usr/lib/modules-load.d/anything.conf</Path>
             <Path fileType="data">/usr/lib/pkgconfig/deepin-anything-server-lib.pc</Path>
+            <Path fileType="library">/usr/lib/sysusers.d/deepin-anything-monitor.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/interfaces/com.deepin.anything.xml</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.anything.service</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/Makefile</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/arg_extractor.c</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/arg_extractor.h</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_change.c</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_change.h</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_change_consts.h</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_change_uapi.h</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_kretprobes.c</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_utils.c</Path>
+            <Path fileType="data">/usr/src/deepin-anything-0.0/vfs_utils.h</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
+        <Update release="2">
             <Date>2020-01-26</Date>
             <Version>5.0.1</Version>
             <Comment>Packaging update</Comment>

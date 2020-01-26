@@ -30,7 +30,7 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
+        <Update release="2">
             <Date>2020-01-26</Date>
             <Version>5.0.1</Version>
             <Comment>Packaging update</Comment>

@@ -1,8 +1,8 @@
 name       : deepin-daemon
-version    : 5.0.0
+version    : 3.23.1
 release    : 1
 source     :
-    - git|https://github.com/linuxdeepin/dde-daemon.git : 5.0.0
+    - git|https://github.com/linuxdeepin/dde-daemon.git : 3.23.1
 networking : yes
 license    : GPL-3.0-or-later
 component  : desktop.deepin.core
@@ -64,7 +64,6 @@ setup      : |
     go get golang.org/x/net/context
     go get golang.org/x/text/encoding/charmap
     go get gopkg.in/alecthomas/kingpin.v2
-    go get github.com/gosexy/gettext
 build      : |
     export GOPATH="${workdir}/:/usr/share/gocode"
     %make

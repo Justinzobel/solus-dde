@@ -12,11 +12,12 @@ description:
       Technology, featured with searching, copying, trash, compression/decompression,
       file property and other file management functions.
 builddeps  :
-    - deepin-anything-devel
+    - deepin-anything
     - deepin-dock-devel
     - deepin-gettext-tools
     - kcodecs-devel
     - pkgconfig(dframeworkdbus)
+    - pkgconfig(disomaster)
     - pkgconfig(dtkwidget)
     - pkgconfig(gsettings-qt)
     - pkgconfig(gtk+-2.0)
@@ -32,6 +33,7 @@ builddeps  :
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(taglib)
     - pkgconfig(uchardet)
+    - pkgconfig(udisks2-qt5)
     - pkgconfig(xcb-ewmh)
     - qt5-tools-devel
 rundeps    :

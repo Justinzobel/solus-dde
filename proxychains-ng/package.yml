@@ -1,6 +1,6 @@
 name       : proxychains-ng
 version    : 4.14
-release    : 15
+release    : 1
 source     :
     - git|https://github.com/rofl0r/proxychains-ng.git : v4.14
 license    : GPL-2.0-only

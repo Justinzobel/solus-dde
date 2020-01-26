@@ -241,6 +241,11 @@ libmongoc-1.0.so.0:_bson_md5_init
 libmongoc-1.0.so.0:_change_stream_init
 libmongoc-1.0.so.0:_empty_error
 libmongoc-1.0.so.0:_get_first_existing
+libmongoc-1.0.so.0:_get_next_batch
+libmongoc-1.0.so.0:_has_write_key
+libmongoc-1.0.so.0:_in_sharded_txn
+libmongoc-1.0.so.0:_is_retryable_read
+libmongoc-1.0.so.0:_mongoc_aggregate
 libmongoc-1.0.so.0:_mongoc_array_append_vals
 libmongoc-1.0.so.0:_mongoc_array_copy
 libmongoc-1.0.so.0:_mongoc_array_destroy
@@ -302,8 +307,11 @@ libmongoc-1.0.so.0:_mongoc_client_session_append_txn
 libmongoc-1.0.so.0:_mongoc_client_session_from_iter
 libmongoc-1.0.so.0:_mongoc_client_session_handle_reply
 libmongoc-1.0.so.0:_mongoc_client_session_in_txn
+libmongoc-1.0.so.0:_mongoc_client_session_in_txn_or_ending
 libmongoc-1.0.so.0:_mongoc_client_session_new
+libmongoc-1.0.so.0:_mongoc_client_session_pin
 libmongoc-1.0.so.0:_mongoc_client_session_txn_in_progress
+libmongoc-1.0.so.0:_mongoc_client_session_unpin
 libmongoc-1.0.so.0:_mongoc_client_set_apm_callbacks_private
 libmongoc-1.0.so.0:_mongoc_client_unregister_session
 libmongoc-1.0.so.0:_mongoc_cluster_auth_node_cyrus
@@ -338,6 +346,11 @@ libmongoc-1.0.so.0:_mongoc_counters_init
 libmongoc-1.0.so.0:_mongoc_create_index_opts_cleanup
 libmongoc-1.0.so.0:_mongoc_create_index_opts_parse
 libmongoc-1.0.so.0:_mongoc_cursor_array_new
+libmongoc-1.0.so.0:_mongoc_cursor_change_stream_end_of_batch
+libmongoc-1.0.so.0:_mongoc_cursor_change_stream_get_post_batch_resume_token
+libmongoc-1.0.so.0:_mongoc_cursor_change_stream_get_reply
+libmongoc-1.0.so.0:_mongoc_cursor_change_stream_has_post_batch_resume_token
+libmongoc-1.0.so.0:_mongoc_cursor_change_stream_new
 libmongoc-1.0.so.0:_mongoc_cursor_check_and_copy_to
 libmongoc-1.0.so.0:_mongoc_cursor_cmd_deprecated_new
 libmongoc-1.0.so.0:_mongoc_cursor_cmd_new
@@ -378,6 +391,7 @@ libmongoc-1.0.so.0:_mongoc_delete_many_opts_cleanup
 libmongoc-1.0.so.0:_mongoc_delete_many_opts_parse
 libmongoc-1.0.so.0:_mongoc_delete_one_opts_cleanup
 libmongoc-1.0.so.0:_mongoc_delete_one_opts_parse
+libmongoc-1.0.so.0:_mongoc_document_is_pipeline
 libmongoc-1.0.so.0:_mongoc_download_stream_gridfs_new
 libmongoc-1.0.so.0:_mongoc_get_command_name
 libmongoc-1.0.so.0:_mongoc_get_db_name
@@ -416,12 +430,14 @@ libmongoc-1.0.so.0:_mongoc_handshake_get_config_hex_string
 libmongoc-1.0.so.0:_mongoc_handshake_init
 libmongoc-1.0.so.0:_mongoc_handshake_parse_sasl_supported_mechs
 libmongoc-1.0.so.0:_mongoc_hex_md5
+libmongoc-1.0.so.0:_mongoc_host_list_copy
 libmongoc-1.0.so.0:_mongoc_host_list_destroy_all
 libmongoc-1.0.so.0:_mongoc_host_list_equal
 libmongoc-1.0.so.0:_mongoc_host_list_from_hostport_with_err
 libmongoc-1.0.so.0:_mongoc_host_list_from_string
 libmongoc-1.0.so.0:_mongoc_host_list_from_string_with_err
 libmongoc-1.0.so.0:_mongoc_host_list_push
+libmongoc-1.0.so.0:_mongoc_host_list_remove_host
 libmongoc-1.0.so.0:_mongoc_insert_many_opts_cleanup
 libmongoc-1.0.so.0:_mongoc_insert_many_opts_parse
 libmongoc-1.0.so.0:_mongoc_insert_one_opts_cleanup
@@ -464,6 +480,7 @@ libmongoc-1.0.so.0:_mongoc_rand_bytes
 libmongoc-1.0.so.0:_mongoc_rand_simple
 libmongoc-1.0.so.0:_mongoc_read_concern_get_bson
 libmongoc-1.0.so.0:_mongoc_read_concern_new_from_iter
+libmongoc-1.0.so.0:_mongoc_read_error_get_type
 libmongoc-1.0.so.0:_mongoc_read_mode_as_str
 libmongoc-1.0.so.0:_mongoc_read_prefs_validate
 libmongoc-1.0.so.0:_mongoc_read_write_opts_cleanup
@@ -548,6 +565,7 @@ libmongoc-1.0.so.0:_mongoc_update_many_opts_parse
 libmongoc-1.0.so.0:_mongoc_update_one_opts_cleanup
 libmongoc-1.0.so.0:_mongoc_update_one_opts_parse
 libmongoc-1.0.so.0:_mongoc_upload_stream_gridfs_new
+libmongoc-1.0.so.0:_mongoc_uri_copy_and_replace_host_list
 libmongoc-1.0.so.0:_mongoc_uri_requires_auth_negotiation
 libmongoc-1.0.so.0:_mongoc_usleep
 libmongoc-1.0.so.0:_mongoc_validate_new_document
@@ -575,6 +593,7 @@ libmongoc-1.0.so.0:_mongoc_write_command_will_overflow
 libmongoc-1.0.so.0:_mongoc_write_concern_get_bson
 libmongoc-1.0.so.0:_mongoc_write_concern_new_from_iter
 libmongoc-1.0.so.0:_mongoc_write_error_get_type
+libmongoc-1.0.so.0:_mongoc_write_error_update_if_unsupported_storage_engine
 libmongoc-1.0.so.0:_mongoc_write_result_append_upsert
 libmongoc-1.0.so.0:_mongoc_write_result_complete
 libmongoc-1.0.so.0:_mongoc_write_result_destroy
@@ -695,6 +714,7 @@ libmongoc-1.0.so.0:mongoc_bulk_operation_update_one
 libmongoc-1.0.so.0:mongoc_bulk_operation_update_one_with_opts
 libmongoc-1.0.so.0:mongoc_change_stream_destroy
 libmongoc-1.0.so.0:mongoc_change_stream_error_document
+libmongoc-1.0.so.0:mongoc_change_stream_get_resume_token
 libmongoc-1.0.so.0:mongoc_change_stream_next
 libmongoc-1.0.so.0:mongoc_check_version
 libmongoc-1.0.so.0:mongoc_cleanup
@@ -752,8 +772,10 @@ libmongoc-1.0.so.0:mongoc_client_session_get_cluster_time
 libmongoc-1.0.so.0:mongoc_client_session_get_lsid
 libmongoc-1.0.so.0:mongoc_client_session_get_operation_time
 libmongoc-1.0.so.0:mongoc_client_session_get_opts
+libmongoc-1.0.so.0:mongoc_client_session_get_server_id
 libmongoc-1.0.so.0:mongoc_client_session_in_transaction
 libmongoc-1.0.so.0:mongoc_client_session_start_transaction
+libmongoc-1.0.so.0:mongoc_client_session_with_transaction
 libmongoc-1.0.so.0:mongoc_client_set_apm_callbacks
 libmongoc-1.0.so.0:mongoc_client_set_appname
 libmongoc-1.0.so.0:mongoc_client_set_error_api
@@ -877,6 +899,7 @@ libmongoc-1.0.so.0:mongoc_cursor_set_hint
 libmongoc-1.0.so.0:mongoc_cursor_set_limit
 libmongoc-1.0.so.0:mongoc_cursor_set_max_await_time_ms
 libmongoc-1.0.so.0:mongoc_database_add_user
+libmongoc-1.0.so.0:mongoc_database_aggregate
 libmongoc-1.0.so.0:mongoc_database_command
 libmongoc-1.0.so.0:mongoc_database_command_simple
 libmongoc-1.0.so.0:mongoc_database_command_with_opts
@@ -1173,16 +1196,17 @@ libmongoc-1.0.so.0:mongoc_topology_server_timestamp
 libmongoc-1.0.so.0:mongoc_topology_set_apm_callbacks
 libmongoc-1.0.so.0:mongoc_transaction_opts_clone
 libmongoc-1.0.so.0:mongoc_transaction_opts_destroy
+libmongoc-1.0.so.0:mongoc_transaction_opts_get_max_commit_time_ms
 libmongoc-1.0.so.0:mongoc_transaction_opts_get_read_concern
 libmongoc-1.0.so.0:mongoc_transaction_opts_get_read_prefs
 libmongoc-1.0.so.0:mongoc_transaction_opts_get_write_concern
 libmongoc-1.0.so.0:mongoc_transaction_opts_new
+libmongoc-1.0.so.0:mongoc_transaction_opts_set_max_commit_time_ms
 libmongoc-1.0.so.0:mongoc_transaction_opts_set_read_concern
 libmongoc-1.0.so.0:mongoc_transaction_opts_set_read_prefs
 libmongoc-1.0.so.0:mongoc_transaction_opts_set_write_concern
 libmongoc-1.0.so.0:mongoc_uncompress
-libmongoc-1.0.so.0:mongoc_uri_append_host
-libmongoc-1.0.so.0:mongoc_uri_append_host_and_port
+libmongoc-1.0.so.0:mongoc_uri_canonicalize_option
 libmongoc-1.0.so.0:mongoc_uri_copy
 libmongoc-1.0.so.0:mongoc_uri_destroy
 libmongoc-1.0.so.0:mongoc_uri_get_appname
@@ -1206,6 +1230,7 @@ libmongoc-1.0.so.0:mongoc_uri_get_replica_set
 libmongoc-1.0.so.0:mongoc_uri_get_service
 libmongoc-1.0.so.0:mongoc_uri_get_ssl
 libmongoc-1.0.so.0:mongoc_uri_get_string
+libmongoc-1.0.so.0:mongoc_uri_get_tls
 libmongoc-1.0.so.0:mongoc_uri_get_username
 libmongoc-1.0.so.0:mongoc_uri_get_write_concern
 libmongoc-1.0.so.0:mongoc_uri_new
@@ -1217,6 +1242,7 @@ libmongoc-1.0.so.0:mongoc_uri_option_is_utf8
 libmongoc-1.0.so.0:mongoc_uri_parse_host
 libmongoc-1.0.so.0:mongoc_uri_parse_options
 libmongoc-1.0.so.0:mongoc_uri_parse_srv
+libmongoc-1.0.so.0:mongoc_uri_remove_host
 libmongoc-1.0.so.0:mongoc_uri_set_appname
 libmongoc-1.0.so.0:mongoc_uri_set_auth_mechanism
 libmongoc-1.0.so.0:mongoc_uri_set_auth_source
@@ -1232,6 +1258,8 @@ libmongoc-1.0.so.0:mongoc_uri_set_read_prefs_t
 libmongoc-1.0.so.0:mongoc_uri_set_username
 libmongoc-1.0.so.0:mongoc_uri_set_write_concern
 libmongoc-1.0.so.0:mongoc_uri_unescape
+libmongoc-1.0.so.0:mongoc_uri_upsert_host
+libmongoc-1.0.so.0:mongoc_uri_upsert_host_and_port
 libmongoc-1.0.so.0:mongoc_write_concern_append
 libmongoc-1.0.so.0:mongoc_write_concern_copy
 libmongoc-1.0.so.0:mongoc_write_concern_destroy
@@ -1241,6 +1269,7 @@ libmongoc-1.0.so.0:mongoc_write_concern_get_w
 libmongoc-1.0.so.0:mongoc_write_concern_get_wmajority
 libmongoc-1.0.so.0:mongoc_write_concern_get_wtag
 libmongoc-1.0.so.0:mongoc_write_concern_get_wtimeout
+libmongoc-1.0.so.0:mongoc_write_concern_get_wtimeout_int64
 libmongoc-1.0.so.0:mongoc_write_concern_is_acknowledged
 libmongoc-1.0.so.0:mongoc_write_concern_is_default
 libmongoc-1.0.so.0:mongoc_write_concern_is_valid
@@ -1252,3 +1281,4 @@ libmongoc-1.0.so.0:mongoc_write_concern_set_w
 libmongoc-1.0.so.0:mongoc_write_concern_set_wmajority
 libmongoc-1.0.so.0:mongoc_write_concern_set_wtag
 libmongoc-1.0.so.0:mongoc_write_concern_set_wtimeout
+libmongoc-1.0.so.0:mongoc_write_concern_set_wtimeout_int64

@@ -2,15 +2,15 @@
     <Source>
         <Name>deepin-daemon</Name>
         <Packager>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.deepin.core</PartOf>
         <Summary xml:lang="en">Daemon handling the DDE session settings</Summary>
         <Description xml:lang="en">Daemon handling the DDE session settings
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>deepin-daemon</Name>
@@ -193,12 +193,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="38">
-            <Date>2019-03-02</Date>
+        <Update release="1">
+            <Date>2020-01-26</Date>
             <Version>3.23.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>

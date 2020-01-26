@@ -1,6 +1,6 @@
 name       : startdde
 version    : 5.0.1
-release    : 1
+release    : 2
 source     :
     - git|https://github.com/linuxdeepin/startdde.git : 5.0.1
 networking : yes
@@ -27,7 +27,7 @@ builddeps  :
 rundeps    :
     - deepin-control-center
     - deepin-daemon
-    - deepin-desktop
+    - deepin-desktop-base
     - deepin-dock
     - deepin-gtk-theme
     - deepin-icon-theme

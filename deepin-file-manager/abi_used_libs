@@ -10,10 +10,10 @@ libQt5Svg.so.5
 libQt5Widgets.so.5
 libQt5X11Extras.so.5
 libX11.so.6
-libanything.so.1.0.0
 libc.so.6
 libdeepin-anything-server-lib.so.0
 libdframeworkdbus.so.2
+libdisomaster.so.1
 libdmr.so.0.1
 libdtkcore.so.2
 libdtkwidget.so.2
@@ -30,5 +30,7 @@ libpoppler-cpp.so.0
 libpthread.so.0
 libsecret-1.so.0
 libstdc++.so.6
+libudisks2-qt5.so.0
 libxcb-ewmh.so.2
+libxcb-shape.so.0
 libz.so.1

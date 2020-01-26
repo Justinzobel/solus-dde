@@ -1,9 +1,0 @@
-/common/
-*.eopkg
-/graph.dot
-*.tar.gz
-/solus-image-deepin
-/.bin/
-/.tmp/
-/.rundeps/
-/.packagecache
