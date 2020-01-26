@@ -1,6 +1,6 @@
 name       : deepin-screenshot
 version    : 5.0.0
-release    : 28
+release    : 1
 source     :
     - git|https://github.com/linuxdeepin/deepin-screenshot.git : 5.0.0
 license    : GPL-3.0-or-later

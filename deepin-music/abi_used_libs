@@ -11,8 +11,8 @@ libcue.so.2
 libdtkcore.so.2
 libdtkwidget.so.2
 libgcc_s.so.1
-libicui18n.so.63
-libicuuc.so.63
+libicui18n.so.65
+libicuuc.so.65
 libpthread.so.0
 libstdc++.so.6
 libtag.so.1

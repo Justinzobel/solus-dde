@@ -2,8 +2,8 @@
     <Source>
         <Name>deepin-wm-switcher</Name>
         <Packager>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.deepin.core</PartOf>
@@ -11,7 +11,7 @@
         <Description xml:lang="en">Deepin window manager monitoring and auto-switching service.
 It is capable of monitoring the health of the 3D WM and falling back to 2D if bad things happened, and detecting platform capability and choose 2D/3D WM accordingly.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>deepin-wm-switcher</Name>
@@ -25,12 +25,12 @@ It is capable of monitoring the health of the 3D WM and falling back to 2D if ba
         </Files>
     </Package>
     <History>
-        <Update release="14">
-            <Date>2019-01-15</Date>
+        <Update release="1">
+            <Date>2020-01-26</Date>
             <Version>1.1.9</Version>
             <Comment>Packaging update</Comment>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>

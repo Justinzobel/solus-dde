@@ -1,6 +1,6 @@
 name       : deepin-default-settings
 version    : 2019.4.22
-release    : 16
+release    : 1
 source     :
     - git|https://github.com/linuxdeepin/default-settings.git : 2019.4.22
 license    : LGPL-3.0-or-later
@@ -10,7 +10,7 @@ description: |
     Deepin default settings
 rundeps    :
     - deepin-introduction
-setup      : |
-    %apply_patches
+#setup      : |
+#    %apply_patches
 install    : |
     %make_install

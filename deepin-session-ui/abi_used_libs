@@ -11,6 +11,7 @@ libXcursor.so.1
 libXfixes.so.3
 libXi.so.6
 libXrandr.so.2
+libXtst.so.6
 libc.so.6
 libdframeworkdbus.so.2
 libdtkcore.so.2

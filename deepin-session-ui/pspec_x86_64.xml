@@ -2,8 +2,8 @@
     <Source>
         <Name>deepin-session-ui</Name>
         <Packager>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.deepin.core</PartOf>
@@ -19,9 +19,9 @@
 </Description>
         <PartOf>desktop.deepin.core</PartOf>
         <Files>
-            <Path fileType="config">/etc/deepin/dde-session-ui.conf</Path>
             <Path fileType="config">/etc/deepin/greeters.d/00-xrandr</Path>
             <Path fileType="config">/etc/deepin/greeters.d/lightdm-deepin-greeter</Path>
+            <Path fileType="executable">/usr/bin/dde-license-dialog</Path>
             <Path fileType="executable">/usr/bin/dde-lock</Path>
             <Path fileType="executable">/usr/bin/dde-shutdown</Path>
             <Path fileType="executable">/usr/bin/dde-switchtogreeter</Path>
@@ -42,6 +42,8 @@
             <Path fileType="data">/usr/share/dbus-1/services/com.deepin.dde.osd.service</Path>
             <Path fileType="data">/usr/share/dbus-1/services/com.deepin.dde.shutdownFront.service</Path>
             <Path fileType="data">/usr/share/dbus-1/services/com.deepin.dde.welcome.service</Path>
+            <Path fileType="data">/usr/share/dde-session-ui/dde-session-ui.conf</Path>
+            <Path fileType="data">/usr/share/dde-session-ui/dde-shutdown.conf</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_af.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_am.qm</Path>
@@ -89,6 +91,7 @@
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_nb.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_ne.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_nl.qm</Path>
+            <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_pa.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_pam.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_pl.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_pt.qm</Path>
@@ -101,6 +104,7 @@
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_sq.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_sr.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_sv.qm</Path>
+            <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_sw.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_ta.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_tr.qm</Path>
             <Path fileType="data">/usr/share/dde-session-ui/translations/dde-session-ui_ug.qm</Path>
@@ -118,12 +122,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="49">
-            <Date>2019-04-10</Date>
-            <Version>4.9.2</Version>
+        <Update release="1">
+            <Date>2020-01-26</Date>
+            <Version>5.0.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>William Floyd</Name>
-            <Email>william.png2000@gmail.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
