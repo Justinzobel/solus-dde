@@ -1,0 +1,21 @@
+name       : libqtxdg
+version    : 3.4.0
+release    : 16
+source     :
+    - git|https://github.com/lxde/libqtxdg.git : 3.4.0
+license    : LGPL-2.1-or-later
+component  : programming.library
+summary    : A Qt 5 implementation of freedesktop.org XDG specifications.
+description: |
+    A Qt 5 implementation of freedesktop.org XDG specifications.
+builddeps  :
+    - lxqt-build-tools-devel
+    - pkgconfig(gl)
+    - pkgconfig(Qt5Core)
+    - pkgconfig(Qt5Svg)
+setup      : |
+    %cmake_ninja
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

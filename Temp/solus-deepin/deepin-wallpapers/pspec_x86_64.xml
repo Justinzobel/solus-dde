@@ -1,0 +1,68 @@
+<PISI>
+    <Source>
+        <Name>deepin-wallpapers</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop</PartOf>
+        <Summary xml:lang="en">Deepin Wallpapers</Summary>
+        <Description xml:lang="en">Deepin Wallpapers
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-wallpapers</Name>
+        <Summary xml:lang="en">Deepin Wallpapers</Summary>
+        <Description xml:lang="en">Deepin Wallpapers
+</Description>
+        <PartOf>desktop</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Balloon_by_Matt_Benson.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Beach_by_Samuel_Scrimshaw.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Flowing_Ribbon.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Flying_Whale_by_Shu_Le.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Grassland_Scenery_by_Shi_Yuejun.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Hummingbird_by_Shu_Le.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Overlooking_by_Lance_Asper.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Paper_Architecture_by_Dmitri_Popov.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/Scenery_in_Plateau_by_Arto_Marttinen.jpg</Path>
+            <Path fileType="data">/usr/share/wallpapers/deepin/desktop.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/06a603f05e30b4cfcf2a70694f062330.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/0d8a55949e48056b8cb1baf0b04ac2a2.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/1ac6b0653962f0b320fade51caa5ec72.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/212728c29727414ac3fb974757109a24.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/3265a93f8b78ccf06d82e3ab7e5bea23.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/3a32e5b21982619c26b84b26cf550c4f.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/46bf8c305bb5e3c7af9d26b5356baf4b.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/4ddb5bdb593dcab9f907853916f856ff.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/5a699892833c3a595760ba7e00eb056e.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/6275ccae0513a0fe61079d045be6cc4b.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/71d68f2ac762023ecaea864de2dd9490.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/78f0aaf2bd9fcb0a484d519fffaef3d4.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/8421eebb3e37d07678c41002b1ec89f3.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/87a7810cf4d14cfae69e3d89fb42179a.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/8a72ea8c487812fee42693db55d47b14.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/9ec059b3eec52474af9e1f81fe42e5a0.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/b0987cf0c936a18e0f020366cddb63ee.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/b0b7cab0b915ef1fe721ce77c8c6fe2b.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/b1c3c1b179ac98b0ea0c997e528fc3ce.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/b2a94422d2c4a887573b92f49fc0a72d.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/d8646d82971337e0275ca93e3b355e81.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/dc713f6de1ea5aa8671f2f785a4b40b8.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/dfe5408cd0170fa2215c828ce88441b5.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/f1b59d03d44b2c3babaa7769b3f905b3.jpg</Path>
+            <Path fileType="data">/var/cache/image-blur/fc2f111f10a4321162ae3cfbdf1f6486.jpg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="29">
+            <Date>2019-03-20</Date>
+            <Version>1.7.7</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

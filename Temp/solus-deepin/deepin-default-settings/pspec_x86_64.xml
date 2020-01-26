@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>deepin-default-settings</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>LGPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Deepin default settings</Summary>
+        <Description xml:lang="en">Deepin default settings
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-default-settings</Name>
+        <Summary xml:lang="en">Deepin default settings</Summary>
+        <Description xml:lang="en">Deepin default settings
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="data">/lib/udev/rules.d/99-deepin.rules</Path>
+            <Path fileType="executable">/usr/bin/dde-first-run</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="15">
+            <Date>2019-02-04</Date>
+            <Version>2019.1.29</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

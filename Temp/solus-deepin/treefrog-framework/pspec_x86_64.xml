@@ -1,0 +1,254 @@
+<PISI>
+    <Source>
+        <Name>treefrog-framework</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>BSD-3-Clause</License>
+        <PartOf>programming.library</PartOf>
+        <Summary xml:lang="en">High-speed C++ MVC Framework for Web Application</Summary>
+        <Description xml:lang="en">TreeFrog Framework is a high-speed and full-stack web application framework based on C++ and Qt, which supports HTTP and WebSocket protocol. Web applications can run faster than that of lightweight programming language. In application development, it provides an O/R mapping system and template system on an MVC architecture, aims to achieve high productivity through the policy of convention over configuration.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>treefrog-framework</Name>
+        <Summary xml:lang="en">High-speed C++ MVC Framework for Web Application</Summary>
+        <Description xml:lang="en">TreeFrog Framework is a high-speed and full-stack web application framework based on C++ and Qt, which supports HTTP and WebSocket protocol. Web applications can run faster than that of lightweight programming language. In application development, it provides an O/R mapping system and template system on an MVC architecture, aims to achieve high productivity through the policy of convention over configuration.
+</Description>
+        <PartOf>programming.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/libtreefrog.so.1</Path>
+            <Path fileType="library">/usr/lib64/libtreefrog.so.1.23</Path>
+            <Path fileType="library">/usr/lib64/libtreefrog.so.1.23.0</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>treefrog-framework-devel</Name>
+        <Summary xml:lang="en">Development files for treefrog-framework</Summary>
+        <Description xml:lang="en">TreeFrog Framework is a high-speed and full-stack web application framework based on C++ and Qt, which supports HTTP and WebSocket protocol. Web applications can run faster than that of lightweight programming language. In application development, it provides an O/R mapping system and template system on an MVC architecture, aims to achieve high productivity through the policy of convention over configuration.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="23">treefrog-framework</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/treefrog/TAbstractController</Path>
+            <Path fileType="header">/usr/include/treefrog/TAbstractModel</Path>
+            <Path fileType="header">/usr/include/treefrog/TAbstractUser</Path>
+            <Path fileType="header">/usr/include/treefrog/TAccessLog</Path>
+            <Path fileType="header">/usr/include/treefrog/TAccessValidator</Path>
+            <Path fileType="header">/usr/include/treefrog/TActionContext</Path>
+            <Path fileType="header">/usr/include/treefrog/TActionController</Path>
+            <Path fileType="header">/usr/include/treefrog/TActionHelper</Path>
+            <Path fileType="header">/usr/include/treefrog/TActionMailer</Path>
+            <Path fileType="header">/usr/include/treefrog/TActionThread</Path>
+            <Path fileType="header">/usr/include/treefrog/TActionView</Path>
+            <Path fileType="header">/usr/include/treefrog/TActionWorker</Path>
+            <Path fileType="header">/usr/include/treefrog/TAppSettings</Path>
+            <Path fileType="header">/usr/include/treefrog/TApplicationScheduler</Path>
+            <Path fileType="header">/usr/include/treefrog/TApplicationServerBase</Path>
+            <Path fileType="header">/usr/include/treefrog/TAtomic</Path>
+            <Path fileType="header">/usr/include/treefrog/TAtomicPtr</Path>
+            <Path fileType="header">/usr/include/treefrog/TBackgroundProcess</Path>
+            <Path fileType="header">/usr/include/treefrog/TBackgroundProcessHandler</Path>
+            <Path fileType="header">/usr/include/treefrog/TBson</Path>
+            <Path fileType="header">/usr/include/treefrog/TCommandLineInterface</Path>
+            <Path fileType="header">/usr/include/treefrog/TContentHeader</Path>
+            <Path fileType="header">/usr/include/treefrog/TCookie</Path>
+            <Path fileType="header">/usr/include/treefrog/TCookieJar</Path>
+            <Path fileType="header">/usr/include/treefrog/TCriteria</Path>
+            <Path fileType="header">/usr/include/treefrog/TCriteriaConverter</Path>
+            <Path fileType="header">/usr/include/treefrog/TCriteriaMongoConverter</Path>
+            <Path fileType="header">/usr/include/treefrog/TCryptMac</Path>
+            <Path fileType="header">/usr/include/treefrog/TDatabaseContext</Path>
+            <Path fileType="header">/usr/include/treefrog/TDatabaseContextThread</Path>
+            <Path fileType="header">/usr/include/treefrog/TDebug</Path>
+            <Path fileType="header">/usr/include/treefrog/TDirectView</Path>
+            <Path fileType="header">/usr/include/treefrog/TDispatcher</Path>
+            <Path fileType="header">/usr/include/treefrog/TFormValidator</Path>
+            <Path fileType="header">/usr/include/treefrog/TGlobal</Path>
+            <Path fileType="header">/usr/include/treefrog/THazardPtrManager</Path>
+            <Path fileType="header">/usr/include/treefrog/THtmlAttribute</Path>
+            <Path fileType="header">/usr/include/treefrog/THtmlParser</Path>
+            <Path fileType="header">/usr/include/treefrog/THttpHeader</Path>
+            <Path fileType="header">/usr/include/treefrog/THttpRequest</Path>
+            <Path fileType="header">/usr/include/treefrog/THttpRequestHeader</Path>
+            <Path fileType="header">/usr/include/treefrog/THttpResponse</Path>
+            <Path fileType="header">/usr/include/treefrog/THttpResponseHeader</Path>
+            <Path fileType="header">/usr/include/treefrog/THttpUtility</Path>
+            <Path fileType="header">/usr/include/treefrog/TInternetMessageHeader</Path>
+            <Path fileType="header">/usr/include/treefrog/TJSInstance</Path>
+            <Path fileType="header">/usr/include/treefrog/TJSLoader</Path>
+            <Path fileType="header">/usr/include/treefrog/TJSModule</Path>
+            <Path fileType="header">/usr/include/treefrog/TJavaScriptObject</Path>
+            <Path fileType="header">/usr/include/treefrog/TJsonUtil</Path>
+            <Path fileType="header">/usr/include/treefrog/TKvsDatabase</Path>
+            <Path fileType="header">/usr/include/treefrog/TKvsDriver</Path>
+            <Path fileType="header">/usr/include/treefrog/TLog</Path>
+            <Path fileType="header">/usr/include/treefrog/TLogger</Path>
+            <Path fileType="header">/usr/include/treefrog/TLoggerPlugin</Path>
+            <Path fileType="header">/usr/include/treefrog/TMailMessage</Path>
+            <Path fileType="header">/usr/include/treefrog/TModelObject</Path>
+            <Path fileType="header">/usr/include/treefrog/TModelUtil</Path>
+            <Path fileType="header">/usr/include/treefrog/TMongoCursor</Path>
+            <Path fileType="header">/usr/include/treefrog/TMongoDriver</Path>
+            <Path fileType="header">/usr/include/treefrog/TMongoODMapper</Path>
+            <Path fileType="header">/usr/include/treefrog/TMongoObject</Path>
+            <Path fileType="header">/usr/include/treefrog/TMongoQuery</Path>
+            <Path fileType="header">/usr/include/treefrog/TMultipartFormData</Path>
+            <Path fileType="header">/usr/include/treefrog/TMultiplexingServer</Path>
+            <Path fileType="header">/usr/include/treefrog/TOption</Path>
+            <Path fileType="header">/usr/include/treefrog/TPaginator</Path>
+            <Path fileType="header">/usr/include/treefrog/TPopMailer</Path>
+            <Path fileType="header">/usr/include/treefrog/TPreforkApplicationServer</Path>
+            <Path fileType="header">/usr/include/treefrog/TPrototypeAjaxHelper</Path>
+            <Path fileType="header">/usr/include/treefrog/TReactComponent</Path>
+            <Path fileType="header">/usr/include/treefrog/TRedis</Path>
+            <Path fileType="header">/usr/include/treefrog/TScheduler</Path>
+            <Path fileType="header">/usr/include/treefrog/TSendmailMailer</Path>
+            <Path fileType="header">/usr/include/treefrog/TSession</Path>
+            <Path fileType="header">/usr/include/treefrog/TSessionStore</Path>
+            <Path fileType="header">/usr/include/treefrog/TSessionStorePlugin</Path>
+            <Path fileType="header">/usr/include/treefrog/TSharedMemoryLogStream</Path>
+            <Path fileType="header">/usr/include/treefrog/TSmtpMailer</Path>
+            <Path fileType="header">/usr/include/treefrog/TSqlJoin</Path>
+            <Path fileType="header">/usr/include/treefrog/TSqlORMapper</Path>
+            <Path fileType="header">/usr/include/treefrog/TSqlORMapperIterator</Path>
+            <Path fileType="header">/usr/include/treefrog/TSqlObject</Path>
+            <Path fileType="header">/usr/include/treefrog/TSqlQuery</Path>
+            <Path fileType="header">/usr/include/treefrog/TSqlQueryORMapper</Path>
+            <Path fileType="header">/usr/include/treefrog/TSqlQueryORMapperIterator</Path>
+            <Path fileType="header">/usr/include/treefrog/TSqlTransaction</Path>
+            <Path fileType="header">/usr/include/treefrog/TSystemGlobal</Path>
+            <Path fileType="header">/usr/include/treefrog/TTemporaryFile</Path>
+            <Path fileType="header">/usr/include/treefrog/TThreadApplicationServer</Path>
+            <Path fileType="header">/usr/include/treefrog/TViewHelper</Path>
+            <Path fileType="header">/usr/include/treefrog/TWebApplication</Path>
+            <Path fileType="header">/usr/include/treefrog/TWebSocketEndpoint</Path>
+            <Path fileType="header">/usr/include/treefrog/TWebSocketSession</Path>
+            <Path fileType="header">/usr/include/treefrog/TfException</Path>
+            <Path fileType="header">/usr/include/treefrog/TfNamespace</Path>
+            <Path fileType="header">/usr/include/treefrog/TfTest/TfTest</Path>
+            <Path fileType="header">/usr/include/treefrog/TfTest/tftest.h</Path>
+            <Path fileType="header">/usr/include/treefrog/TreeFrogController</Path>
+            <Path fileType="header">/usr/include/treefrog/TreeFrogModel</Path>
+            <Path fileType="header">/usr/include/treefrog/TreeFrogView</Path>
+            <Path fileType="header">/usr/include/treefrog/tabstractcontroller.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tabstractmodel.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tabstractuser.h</Path>
+            <Path fileType="header">/usr/include/treefrog/taccesslog.h</Path>
+            <Path fileType="header">/usr/include/treefrog/taccessvalidator.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tactioncontext.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tactioncontroller.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tactionhelper.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tactionmailer.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tactionthread.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tactionview.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tactionworker.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tapplicationscheduler.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tapplicationserverbase.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tappsettings.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tatomic.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tatomicptr.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tbackgroundprocess.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tbackgroundprocesshandler.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tbson.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tcommandlineinterface.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tcontentheader.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tcookie.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tcookiejar.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tcriteria.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tcriteriaconverter.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tcriteriamongoconverter.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tcryptmac.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tdatabasecontext.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tdatabasecontextthread.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tdebug.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tdirectview.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tdispatcher.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tfcore.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tfcore_unix.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tfexception.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tfnamespace.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tformvalidator.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tglobal.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thazardobject.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thazardptr.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thazardptrmanager.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thtmlattribute.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thtmlparser.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thttpheader.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thttprequest.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thttprequestheader.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thttpresponse.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thttpresponseheader.h</Path>
+            <Path fileType="header">/usr/include/treefrog/thttputility.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tinternetmessageheader.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tjavascriptobject.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tjsinstance.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tjsloader.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tjsmodule.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tjsonutil.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tkvsdatabase.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tkvsdatabasepool.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tkvsdriver.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tlog.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tlogger.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tloggerplugin.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmailmessage.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmodelobject.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmodelutil.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmongocursor.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmongodriver.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmongoobject.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmongoodmapper.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmongoquery.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmultipartformdata.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tmultiplexingserver.h</Path>
+            <Path fileType="header">/usr/include/treefrog/toption.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tpaginator.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tpopmailer.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tprocessinfo.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tprototypeajaxhelper.h</Path>
+            <Path fileType="header">/usr/include/treefrog/treactcomponent.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tredis.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tscheduler.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsendmailmailer.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsession.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsessionstore.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsessionstoreplugin.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsharedmemorylogstream.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsmtpmailer.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqldatabasepool.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqljoin.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqlobject.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqlormapper.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqlormapperiterator.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqlquery.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqlqueryormapper.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqlqueryormapperiterator.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsqltransaction.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tstack.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsystembus.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tsystemglobal.h</Path>
+            <Path fileType="header">/usr/include/treefrog/ttemporaryfile.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tthreadapplicationserver.h</Path>
+            <Path fileType="header">/usr/include/treefrog/tviewhelper.h</Path>
+            <Path fileType="header">/usr/include/treefrog/twebapplication.h</Path>
+            <Path fileType="header">/usr/include/treefrog/twebsocketendpoint.h</Path>
+            <Path fileType="header">/usr/include/treefrog/twebsocketsession.h</Path>
+            <Path fileType="library">/usr/lib64/libtreefrog.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="23">
+            <Date>2019-04-10</Date>
+            <Version>1.23.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

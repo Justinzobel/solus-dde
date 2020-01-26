@@ -1,0 +1,18 @@
+name       : lxqt-build-tools
+version    : 0.6.0
+release    : 1
+source     :
+    - git|https://github.com/lxde/lxqt-build-tools.git : 0.6.0
+license    : BSD-3-Clause
+component  : programming.tools
+summary    : Various packaging tools and scripts for LXQt applications
+description: |
+    Several tools needed to build LXQt itself as well as other components maintained by the LXQt project.
+builddeps  :
+    - pkgconfig(Qt5Core)
+setup      : |
+    %cmake_ninja
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

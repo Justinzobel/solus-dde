@@ -1,0 +1,61 @@
+<PISI>
+    <Source>
+        <Name>qt5-xcb-private-headers</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>FDL-1.3</License>
+        <License>GPL-2.0</License>
+        <License>LGPL-2.1</License>
+        <License>LGPL-3.0</License>
+        <PartOf>programming.devel</PartOf>
+        <Summary xml:lang="en">Private headers for Qt5 Xcb</Summary>
+        <Description xml:lang="en">Private headers for Qt5 Xcb
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>qt5-xcb-private-headers-devel</Name>
+        <Summary xml:lang="en">Development files for qt5-xcb-private-headers</Summary>
+        <Description xml:lang="en">Private headers for Qt5 Xcb
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <Files>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbatom.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbbackingstore.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbclipboard.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbconnection.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbconnection_basic.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbcursor.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbdrag.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbeventdispatcher.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbeventqueue.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbexport.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbimage.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbintegration.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbkeyboard.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbmime.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbnativeinterface.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbobject.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbscreen.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbsessionmanager.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbsystemtraytracker.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbvulkaninstance.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbvulkanwindow.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbwindow.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbwmsupport.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbxkbcommon.h</Path>
+            <Path fileType="header">/usr/include/qtxcb-private/qxcbxsettings.h</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="15">
+            <Date>2019-04-10</Date>
+            <Version>5.12.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

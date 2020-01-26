@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>deepin-shortcut-viewer</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop</PartOf>
+        <Summary xml:lang="en">Deepin Shortcut Viewer</Summary>
+        <Description xml:lang="en">Helps Deepin applications pop up their shortcut information on screen in a unified appearance.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-shortcut-viewer</Name>
+        <Summary xml:lang="en">Deepin Shortcut Viewer</Summary>
+        <Description xml:lang="en">Helps Deepin applications pop up their shortcut information on screen in a unified appearance.
+</Description>
+        <PartOf>desktop</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/deepin-shortcut-viewer</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="23">
+            <Date>2019-04-10</Date>
+            <Version>1.3.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

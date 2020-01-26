@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>blur-effect</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-only</License>
+        <PartOf>multimedia.graphics</PartOf>
+        <Summary xml:lang="en">Offscreen image blurring tool</Summary>
+        <Description xml:lang="en">Offscreen image blurring tool
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>blur-effect</Name>
+        <Summary xml:lang="en">Offscreen image blurring tool</Summary>
+        <Description xml:lang="en">Offscreen image blurring tool
+</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/blur_image</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="14">
+            <Date>2019-04-03</Date>
+            <Version>1.1.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

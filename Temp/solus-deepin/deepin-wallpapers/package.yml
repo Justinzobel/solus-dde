@@ -1,0 +1,20 @@
+name       : deepin-wallpapers
+version    : 1.7.7
+release    : 29
+source     :
+    - git|https://github.com/linuxdeepin/deepin-wallpapers.git : 1.7.7
+license    : GPL-3.0-or-later
+component  : desktop
+summary    : Deepin Wallpapers
+description: |
+    Deepin Wallpapers
+builddeps  :
+    - deepin-api
+build      : |
+    %make
+install    : |
+    install -dm0755 "${installdir}/usr/share/wallpapers"
+    cp -r deepin "${installdir}/usr/share/wallpapers/"
+
+    install -dm0755 "${installdir}/var/cache"
+    cp -r image-blur "${installdir}/var/cache/"

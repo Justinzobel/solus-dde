@@ -1,0 +1,93 @@
+<PISI>
+    <Source>
+        <Name>deepin-calendar</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin</PartOf>
+        <Summary xml:lang="en">Calendar for Deepin Desktop Environment.</Summary>
+        <Description xml:lang="en">Deepin Calender is an easy calendar tool developed by Deepin Technology, main features current date, solar terms, lunar calendar and world holidays.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-calendar</Name>
+        <Summary xml:lang="en">Calendar for Deepin Desktop Environment.</Summary>
+        <Description xml:lang="en">Deepin Calender is an easy calendar tool developed by Deepin Technology, main features current date, solar terms, lunar calendar and world holidays.
+</Description>
+        <PartOf>desktop.deepin</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/dde-calendar</Path>
+            <Path fileType="data">/usr/share/applications/dde-calendar.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.Calendar.service</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_am_ET.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ar.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ast.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_az.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_bg.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_bn.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ca.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_cs.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_da.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_de.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_el.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_en_AU.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_en_GB.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_eo.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_es.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_es_419.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_fa.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_fi.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_fil.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_fr.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_gl_ES.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_he.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_hi_IN.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_hr.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_hu.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_hy.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_id.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_it.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ja.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_kn_IN.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ko.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ku_IQ.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_lt.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ml.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_mn.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ms.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_nb.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_nl.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_pl.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_pt.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ro.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ru.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_sk.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_sl.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_sr.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_sv.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ta.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_tr.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_ug.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_uk.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_vi.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_zh_HK.qm</Path>
+            <Path fileType="data">/usr/share/dde-calendar/translations/dde-calendar_zh_TW.qm</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/dde-calendar.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="26">
+            <Date>2019-01-15</Date>
+            <Version>1.2.6</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

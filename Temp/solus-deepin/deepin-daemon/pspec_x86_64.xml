@@ -1,0 +1,204 @@
+<PISI>
+    <Source>
+        <Name>deepin-daemon</Name>
+        <Packager>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Daemon handling the DDE session settings</Summary>
+        <Description xml:lang="en">Daemon handling the DDE session settings
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-daemon</Name>
+        <Summary xml:lang="en">Daemon handling the DDE session settings</Summary>
+        <Description xml:lang="en">Daemon handling the DDE session settings
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="config">/etc/default/grub.d/10_deepin.cfg</Path>
+            <Path fileType="config">/etc/grub.d/35_deepin_gfxmode</Path>
+            <Path fileType="config">/etc/pam.d/deepin-auth</Path>
+            <Path fileType="config">/etc/pam.d/deepin-auth-keyboard</Path>
+            <Path fileType="data">/lib/systemd/system/deepin-accounts-daemon.service</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/backlight_helper</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/dde-authority</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/dde-authority-pam</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/dde-greeter-setter</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/dde-lockservice</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/dde-session-daemon</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/dde-system-daemon</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/default-file-manager</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/default-terminal</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/desktop-toggle</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/grub2</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/langselector</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/search</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/soundeffect</Path>
+            <Path fileType="library">/usr/lib/deepin-daemon/theme-thumb-tool</Path>
+            <Path fileType="library">/usr/lib64/sysusers.d/deepin-daemon.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.LastoreSessionHelper.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.api.XEventMonitor.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Appearance.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Audio.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Bluetooth.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Fprintd.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.InputDevices.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Keybinding.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.LangSelector.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Mime.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Miracast.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Network.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Power.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Search.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.SessionWatcher.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.SoundEffect.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.SystemInfo.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Timedate.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.daemon.Zone.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.dde.daemon.Dock.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.dde.daemon.Launcher.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.Accounts.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.Apps.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.Authority.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.Daemon.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.Gesture.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.Greeter.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.Grub2.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.SwapSchedHelper.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.Timedated.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.daemon.helper.Backlight.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.dde.LockService.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system-services/com.deepin.system.Power.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.Accounts.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.Apps.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.Authority.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.Daemon.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.Gesture.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.Greeter.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.Grub2.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.SwapSchedHelper.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.Timedated.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.daemon.helper.Backlight.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.dde.LockService.conf</Path>
+            <Path fileType="data">/usr/share/dbus-1/system.d/com.deepin.system.Power.conf</Path>
+            <Path fileType="data">/usr/share/dde-daemon/dst_data</Path>
+            <Path fileType="data">/usr/share/dde-daemon/gesture.json</Path>
+            <Path fileType="data">/usr/share/dde-daemon/gesture/conf.json</Path>
+            <Path fileType="data">/usr/share/dde-daemon/gesture_builtin.md</Path>
+            <Path fileType="data">/usr/share/dde-daemon/keybinding/system_actions.json</Path>
+            <Path fileType="data">/usr/share/dde-daemon/lang/all_languages</Path>
+            <Path fileType="data">/usr/share/dde-daemon/lang/pkg_depends.json</Path>
+            <Path fileType="data">/usr/share/dde-daemon/lang/support_languages</Path>
+            <Path fileType="data">/usr/share/dde-daemon/lang/support_languages.json</Path>
+            <Path fileType="data">/usr/share/dde-daemon/mime/data.json</Path>
+            <Path fileType="data">/usr/share/dde/data/app_name_translations.json</Path>
+            <Path fileType="data">/usr/share/dde/data/category_filter.ini</Path>
+            <Path fileType="data">/usr/share/dde/data/deepin_icons.ini</Path>
+            <Path fileType="data">/usr/share/dde/data/process_regex.ini</Path>
+            <Path fileType="data">/usr/share/dde/data/window_patterns.json</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/status/dialog-window-scale.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/dialog-window-scale.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/status/dialog-window-scale.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/status/dialog-window-scale.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/status/dialog-window-scale.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/status/dialog-window-scale.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/status/dialog-window-scale.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/status/dialog-window-scale.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/dialog-window-scale.svg</Path>
+            <Path fileType="localedata">/usr/share/locale/af/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/af_ZA/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/am/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/am_ET/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/az/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bn/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de_DE/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_AU/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eo/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es_419/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es_AR/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es_CL/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fa/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fil/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gl/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gl_ES/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/he/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hi_IN/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hr/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hy/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id_ID/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ku_IQ/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mn/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ms/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pam/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/si/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv_SE/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ta/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ug/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/vi/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_HK/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/dde-daemon.mo</Path>
+            <Path fileType="data">/usr/share/polkit-1/actions/com.deepin.daemon.Grub2.policy</Path>
+            <Path fileType="data">/usr/share/polkit-1/actions/com.deepin.daemon.accounts.policy</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/1.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/10.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/12.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/2.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/3.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/4.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/5.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/6.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/7.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/8.png</Path>
+            <Path fileType="data">/var/cache/appearance/thumbnail/background/9.png</Path>
+            <Path fileType="data">/var/lib/polkit-1/localauthority/10-vendor.d/com.deepin.daemon.Accounts.pkla</Path>
+            <Path fileType="data">/var/lib/polkit-1/localauthority/10-vendor.d/com.deepin.daemon.Grub2.pkla</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="38">
+            <Date>2019-03-02</Date>
+            <Version>3.23.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>William Floyd</Name>
+            <Email>william.png2000@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
