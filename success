@@ -40,7 +40,6 @@ deepin-qt5integration
 disomaster
 libmongoc
 treefrog-framework
-deepin-file-manager
 deepin-api
 deepin-sound-theme
 dtkwm
@@ -53,7 +52,6 @@ deepin-desktop-base
 blur-effect
 xcur2png
 deepin-daemon
-deepin-default-settings
 deepin-notifications
 deepin-polkit-agent
 deepin-screen-recorder
