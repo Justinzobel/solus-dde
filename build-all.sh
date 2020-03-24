@@ -13,7 +13,7 @@ mkdir -p ${rootdir}eopkgs
 for i in $(cat ${rootdir}order)
   do
     pushd ${rootdir}${i}
-    make local
+    solbuild build package.yml -p local-unstable-x86_64
     if [[ $(ls -1 *.eopkg | wc -l) -gt 0 ]]
       then
         echo ${i} >> ${rootdir}success
