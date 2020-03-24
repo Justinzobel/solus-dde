@@ -31,7 +31,7 @@ rundeps    :
     - deepin-qt5integration
     - proxychains-ng
 setup      : |
-    %cmake
+    %cmake -DDISABLE_SYS_UPDATE=YES -DCMAKE_INSTALL_PREFIX=/usr -DDISABLE_OPACITY_ANIMATION=NO -DDISABLE_CLOUD_SYNC=YES
 build      : |
     %make
 install    : |
