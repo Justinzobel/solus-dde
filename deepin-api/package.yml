@@ -32,7 +32,7 @@ setup      : |
     mkdir -p src/pkg.deepin.io/dde
     cp -r $sources/dde-api.git $workdir/src/pkg.deepin.io/dde/api
 build      : |
-    export GOPATH=$workdir/:/usr/share/gocode
+    export GOPATH=$workdir/build:/usr/share/gocode
     go get gopkg.in/alecthomas/kingpin.v2
     go get github.com/nfnt/resize
     go get github.com/cryptix/wav

@@ -29,12 +29,10 @@ deepin-calculator
 deepin-gettext-tools
 perl-config-tiny
 deepin-calendar
-deepin-terminal
 deepin-editor
 liblightdm-qt5
 deepin-movie
 deepin-dock
-lxqt-build-tools
 libqtxdg
 deepin-qt5integration
 disomaster
@@ -51,6 +49,7 @@ deepin-session-ui
 deepin-desktop-base
 blur-effect
 xcur2png
+deepin-wallpapers
 deepin-daemon
 deepin-notifications
 deepin-polkit-agent
@@ -62,7 +61,6 @@ proxychains-ng
 qt5-xcb-private-headers
 deepin-qt5dxcb-plugin
 startdde
-deepin-wallpapers
 deepin-file-manager
 deepin-default-settings
 deepin-turbo

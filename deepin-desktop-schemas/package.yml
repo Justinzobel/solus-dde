@@ -4,7 +4,7 @@ release    : 2
 source     :
     - git|https://github.com/linuxdeepin/deepin-desktop-schemas.git : 3.13.9
 license    : GPL-3.0-or-later
-component  : desktop.dde
+component  : desktop.deepin
 summary    : GSettings Deepin desktop-wide schemas
 description: |
     GSettings Deepin desktop-wide schemas
