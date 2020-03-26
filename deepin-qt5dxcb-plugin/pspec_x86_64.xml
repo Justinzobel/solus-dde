@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>deepin-qt5dxcb-plugin</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.qt</PartOf>
+        <Summary xml:lang="en">Qt platform plugins for DDE</Summary>
+        <Description xml:lang="en">Qt platform plugins for DDE
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-qt5dxcb-plugin</Name>
+        <Summary xml:lang="en">Qt platform plugins for DDE</Summary>
+        <Description xml:lang="en">Qt platform plugins for DDE
+</Description>
+        <PartOf>desktop.qt</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/qt5/plugins/platforms/libdxcb.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-25</Date>
+            <Version>5.0.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -7,8 +7,7 @@ popd () {
     command popd "$@" > /dev/null
 }
 
-rootdir="/home/justin/Builds/solus-dde/"
-mkdir -p ${rootdir}eopkgs
+rootdir="$(pwd)/"
 
 for i in $(cat ${rootdir}order)
   do

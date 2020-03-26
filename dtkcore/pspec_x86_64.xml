@@ -1,0 +1,120 @@
+<PISI>
+    <Source>
+        <Name>dtkcore</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Deepin Tool Kit (Dtk) is the base devlopment tool of all C++/Qt Developer work on Deepin.</Summary>
+        <Description xml:lang="en">Deepin Tool Kit (Dtk) is the base devlopment tool of all C++/Qt Developer work on Deepin.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>dtkcore</Name>
+        <Summary xml:lang="en">Deepin Tool Kit (Dtk) is the base devlopment tool of all C++/Qt Developer work on Deepin.</Summary>
+        <Description xml:lang="en">Deepin Tool Kit (Dtk) is the base devlopment tool of all C++/Qt Developer work on Deepin.
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/libdtk-2.1.1/DCore/bin/deepin-os-release</Path>
+            <Path fileType="library">/usr/lib64/libdtk-2.1.1/DCore/bin/dtk-license.py</Path>
+            <Path fileType="library">/usr/lib64/libdtk-2.1.1/DCore/bin/dtk-settings</Path>
+            <Path fileType="library">/usr/lib64/libdtk-2.1.1/DCore/bin/dtk-translate.py</Path>
+            <Path fileType="library">/usr/lib64/libdtkcore.so.2</Path>
+            <Path fileType="library">/usr/lib64/libdtkcore.so.2.1</Path>
+            <Path fileType="library">/usr/lib64/libdtkcore.so.2.1.1</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/features/dtk_build.prf</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/features/dtk_build_config.prf</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/features/dtk_cmake.prf</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/features/dtk_lib.prf</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/features/dtk_module.prf</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/features/dtk_qmake.prf</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/features/dtk_translation.prf</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/modules/qt_lib_dtkcore.pri</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>dtkcore-devel</Name>
+        <Summary xml:lang="en">Development files for dtkcore</Summary>
+        <Description xml:lang="en">Deepin Tool Kit (Dtk) is the base devlopment tool of all C++/Qt Developer work on Deepin.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">dtkcore</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/AbstractAppender.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/AbstractStringAppender.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/ConsoleAppender.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/CuteLogger_global.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DBaseFileWatcher</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DDBusSender</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DFileSystemWatcher</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DFileWatcher</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DFileWatcherManager</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DLog</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DNotifySender</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DObject</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DObjectPrivate</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DPathBuf</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DPinyin</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DRecentManager</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DSettings</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DSettingsGroup</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DSettingsOption</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DSingleton</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DStandardPaths</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DSysInfo</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DUtil</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/DtkCores</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/FileAppender.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/LogManager.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/Logger.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/OutputDebugAppender.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/RollingFileAppender.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dabstractunitformatter.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dbasefilewatcher.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/ddbussender.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/ddisksizeformatter.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dfilesystemwatcher.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dfilewatcher.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dfilewatchermanager.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dnotifysender.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dobject.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dobject_p.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dpathbuf.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dpinyin.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/drecentmanager.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dsettings.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dsettingsbackend.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dsettingsgroup.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dsettingsoption.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dsingleton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dstandardpaths.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dsysinfo.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dtimeunitformatter.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dtkcore_config.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dtkcore_global.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/dutil.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/gsettingsbackend.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore/qsettingbackend.h</Path>
+            <Path fileType="library">/usr/lib64/cmake/Dtk/DtkConfig.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/DtkCMake/DtkCMakeConfig.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/DtkCore/DtkCoreConfig.cmake</Path>
+            <Path fileType="library">/usr/lib64/libdtkcore.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/dtkcore.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-25</Date>
+            <Version>2.1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

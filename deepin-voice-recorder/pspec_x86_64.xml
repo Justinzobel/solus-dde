@@ -1,0 +1,84 @@
+<PISI>
+    <Source>
+        <Name>deepin-voice-recorder</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin</PartOf>
+        <Summary xml:lang="en">Default voice recorder application for Deepin.</Summary>
+        <Description xml:lang="en">Deepin Voice Recorder is a beautiful and easy to use voice recording application with simple design. No matter recording your singing, phone call or meeting conversation, you can finish all these tasks by Deepin Voice Recorder. It also supports visual recording, recording playback, recording list management and other functions.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-voice-recorder</Name>
+        <Summary xml:lang="en">Default voice recorder application for Deepin.</Summary>
+        <Description xml:lang="en">Deepin Voice Recorder is a beautiful and easy to use voice recording application with simple design. No matter recording your singing, phone call or meeting conversation, you can finish all these tasks by Deepin Voice Recorder. It also supports visual recording, recording playback, recording list management and other functions.
+</Description>
+        <PartOf>desktop.deepin</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/deepin-voice-recorder</Path>
+            <Path fileType="data">/usr/share/applications/deepin-voice-recorder.desktop</Path>
+            <Path fileType="data">/usr/share/deepin-voice-recorder/translations/deepin-voice-recorder_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/deepin-voice-recorder.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/icon_commoncoperat.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/icon_commoncoperat_small.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/icon_guide.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/icon_guide_small.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/icon_optionsetting.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/icon_optionsetting_small.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/icon_overview.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/common/icon_overview_small.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/Enter.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/close_icon.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/deepin-launcher.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/deepin-voice-recorder.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/finish.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/icon_menu.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/mic.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/notes.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/pause.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/icon/tips.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/index.md</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/png/about.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/png/delete.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/png/file.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/png/help.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/png/new.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/png/recoder.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/png/rename.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/en_US/png/replay.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/Enter.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/close_icon.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/deepin-launcher.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/deepin-voice-recorder.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/finish.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/icon_menu.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/mic.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/notes.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/pause.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/icon/tips.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/index.md</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/png/about.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/png/delete.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/png/file.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/png/help.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/png/new.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/png/recoder.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/png/rename.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-voice-recorder/zh_CN/png/replay.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/deepin-voice-recorder.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-25</Date>
+            <Version>5.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

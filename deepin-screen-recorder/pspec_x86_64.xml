@@ -1,0 +1,63 @@
+<PISI>
+    <Source>
+        <Name>deepin-screen-recorder</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin</PartOf>
+        <Summary xml:lang="en">Default screen recorder application for Deepin.</Summary>
+        <Description xml:lang="en">a screen recorder tool, it supports to save the recorded screens as gif or mp4 format. It can select the recorded window automatically or manually by selecting the area. Users just need to start and stop the recording process, and the file will auto save to the desktop.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-screen-recorder</Name>
+        <Summary xml:lang="en">Default screen recorder application for Deepin.</Summary>
+        <Description xml:lang="en">a screen recorder tool, it supports to save the recorded screens as gif or mp4 format. It can select the recorded window automatically or manually by selecting the area. Users just need to start and stop the recording process, and the file will auto save to the desktop.
+</Description>
+        <PartOf>desktop.deepin</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/deepin-screen-recorder</Path>
+            <Path fileType="data">/usr/share/applications/deepin-screen-recorder.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.ScreenRecorder.service</Path>
+            <Path fileType="data">/usr/share/deepin-screen-recorder/translations/deepin-screen-recorder_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/common/deepin-screen-recorder.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/common/icon_commoncoperat.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/common/icon_commoncoperat_small.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/common/icon_guide.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/common/icon_guide_small.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/common/icon_overview.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/common/icon_overview_small.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/icon/Esc.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/icon/F1.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/icon/deepin-launcher.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/icon/deepin-screen-recorder.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/icon/notes.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/index.md</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/png/help.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/png/recorder.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/en_US/png/select.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/icon/Esc.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/icon/F1.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/icon/deepin-launcher.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/icon/deepin-screen-recorder.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/icon/notes.svg</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/index.md</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/png/help.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/png/recoder.png</Path>
+            <Path fileType="data">/usr/share/dman/deepin-screen-recorder/zh_CN/png/select.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/deepin-screen-recorder.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-25</Date>
+            <Version>5.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

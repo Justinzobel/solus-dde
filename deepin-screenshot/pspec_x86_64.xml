@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>deepin-screenshot</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin</PartOf>
+        <Summary xml:lang="en">Advanced tool to make and edit screenshots</Summary>
+        <Description xml:lang="en">Deepin screenshot is an advanced tool to make screenshots on Linux desktop environment. It has a user-friendly UI which eases cropping and saving of screenshot.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-screenshot</Name>
+        <Summary xml:lang="en">Advanced tool to make and edit screenshots</Summary>
+        <Description xml:lang="en">Deepin screenshot is an advanced tool to make screenshots on Linux desktop environment. It has a user-friendly UI which eases cropping and saving of screenshot.
+</Description>
+        <PartOf>desktop.deepin</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/deepin-screenshot</Path>
+            <Path fileType="data">/usr/share/applications/deepin-screenshot.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.Screenshot.service</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/deepin-screenshot.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-25</Date>
+            <Version>5.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

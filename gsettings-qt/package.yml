@@ -3,7 +3,7 @@ version    : 0.1.20170824
 release    : 1
 source     :
     - https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-qt_0.1+17.10.20170824.orig.tar.gz : f2fb6243adb3d41ad7ec50ed32c89bcbc0b8227e0af53b62765faed78ad0f0b8
-license    : LGPL-3.0-only
+license    : LGPL-3.0-or-later
 component  : programming.devel
 summary    : Qml bindings for GSettings.
 description: |

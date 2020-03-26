@@ -1,0 +1,74 @@
+<PISI>
+    <Source>
+        <Name>deepin-system-monitor</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin</PartOf>
+        <Summary xml:lang="en">A more user-friendly system monitor.</Summary>
+        <Description xml:lang="en">Deepin system monitor: a more user-friendly system monitor.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-system-monitor</Name>
+        <Summary xml:lang="en">A more user-friendly system monitor.</Summary>
+        <Description xml:lang="en">Deepin system monitor: a more user-friendly system monitor.
+</Description>
+        <PartOf>desktop.deepin</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/deepin-system-monitor</Path>
+            <Path fileType="data">/usr/share/applications/deepin-system-monitor.desktop</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_am_ET.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_ar.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_ast.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_bg.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_ca.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_cs.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_da.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_de.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_es.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_es_419.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_fi.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_fr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_gl_ES.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_he.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_hr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_hu.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_id.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_it.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_ja.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_lt.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_mn.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_ms.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_nb.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_ne.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_nl.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_pl.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_pt.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_ro.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_ru.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_sk.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_sl.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_sr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_tr.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_uk.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/deepin-system-monitor/translations/deepin-system-monitor_zh_TW.qm</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/deepin-system-monitor.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-25</Date>
+            <Version>5.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
