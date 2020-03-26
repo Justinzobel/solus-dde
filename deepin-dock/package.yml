@@ -16,11 +16,11 @@ builddeps  :
     - pkgconfig(gl)
     - pkgconfig(gsettings-qt)
     - pkgconfig(Qt5Svg)
+    - pkgconfig(Qt5UiTools)
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(xcb-ewmh)
     - pkgconfig(xcb-image)
     - pkgconfig(xtst)
-    - qt5-tools-devel
 setup      : |
     mkdir build
     pushd build

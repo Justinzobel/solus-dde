@@ -3,7 +3,10 @@ version    : 1.7.7
 release    : 1
 source     :
     - git|https://github.com/linuxdeepin/deepin-wallpapers.git : 1.7.7
-license    : GPL-3.0-or-later
+license    :
+    - CC-BY-NC-3.0
+    - CC-BY-SA-3.0
+    - 
 component  : desktop
 summary    : Deepin Wallpapers
 description: |
@@ -18,3 +21,5 @@ install    : |
 
     install -dm0755 "${installdir}/var/cache"
     cp -r image-blur "${installdir}/var/cache/"
+    # Remove these as they're not license-friendly
+    rm -rf %installroot%/usr/share/wallpapers/deepin-private

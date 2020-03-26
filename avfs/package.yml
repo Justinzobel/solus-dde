@@ -3,7 +3,9 @@ version    : 1.1.1
 release    : 1
 source     :
     - https://sourceforge.net/projects/avf/files/avfs/1.1.1/avfs-1.1.1.tar.bz2/download : c83eef7f8676db6fed0a18373c433e0ff55af1651246303ebe1181e8ef8bbf3b
-license    : GPL-2.0-only
+license    :
+    - GPL-2.0-or-later
+    - LGPL-2.0-or-later
 component  : system.utils
 summary    : AVFS enables all programs to access archived, compressed, or remote files
     transparently.

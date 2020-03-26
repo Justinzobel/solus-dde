@@ -9,9 +9,6 @@ summary    : Deepin Window Manager
 description: |
     Default window manager for Deepin, started as a fork of Elementary Gala, based on libmutter. Mostly rewritten to work with Deepin Desktop Environment, such as redesign the UI for window switching, enhance user experience for the workspace preview mode, support multiple backgrounds, and many of other changes.
 builddeps  :
-    - deepin-clutter-devel
-    - deepin-clutter-gtk-devel
-    - gnome-common
     - pkgconfig(gdk-x11-3.0)
     - pkgconfig(gee-0.8)
     - pkgconfig(gnome-desktop-3.0)
@@ -22,6 +19,9 @@ builddeps  :
     - pkgconfig(libcanberra-gtk3)
     - pkgconfig(libdeepin-mutter)
     - pkgconfig(libwnck-3.0)
+    - deepin-clutter-devel
+    - deepin-clutter-gtk-devel
+    - gnome-common
     - vala
 rundeps    :
     - deepin-desktop-schemas

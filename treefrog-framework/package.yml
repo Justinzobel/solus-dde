@@ -11,8 +11,8 @@ description: |
 builddeps  :
     - pkgconfig(libmongoc-1.0)
     - pkgconfig(Qt5Core)
-    - qt5-declarative-devel
-    - qt5-tools-devel
+    - pkgconfig(Qt5Quick)
+    - pkgconfig(Qt5UiTools)
 setup      : |
     ./configure --enable-shared-mongoc --prefix=%installroot%/%PREFIX% --libdir=%installroot%/%libdir% --datadir=%installroot%/usr/share
 build      : |

@@ -3,13 +3,12 @@ version    : 1.2.9.1
 release    : 1
 source     :
     - git|https://github.com/linuxdeepin/deepin-editor.git : 1.2.9.1
-license    : GPL-3.0-or-later # -or-later assumed from other projects
+license    : GPL-3.0-or-later
 component  : desktop.deepin
 summary    : Deepin Editor.
 description: |
     Deepin Editor: simple editor for deepin.
 builddeps  :
-    - kcodecs-devel
     - pkgconfig(dtkwidget)
     - pkgconfig(Qt5Svg)
     - pkgconfig(Qt5X11Extras)
@@ -18,6 +17,7 @@ builddeps  :
     - pkgconfig(xcb-util)
     - pkgconfig(xext)
     - pkgconfig(xtst)
+    - kcodecs-devel
     - qt5-tools-devel
     - syntax-highlighting-devel
 setup      : |

@@ -3,7 +3,7 @@ version    : 1.0.0_pre12
 release    : 1
 source     :
     - https://sourceforge.net/projects/imwheel/files/imwheel-source/1.0.0pre12/imwheel-1.0.0pre12.tar.gz/download : 2320ed019c95ca4d922968e1e1cbf0c075a914e865e3965d2bd694ca3d57cfe3
-license    : GPL-2.0-only
+license    : GPL-2.0-or-later
 component  : system.utils
 summary    : A tool for tweaking mouse wheel behavior
 description: |

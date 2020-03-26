@@ -3,7 +3,7 @@ version    : 1.0.11
 release    : 1
 source     :
     - git|https://github.com/linuxdeepin/dde-account-faces.git : 1.0.11
-license    : CC0-1.0
+license    : Creative Commons Public License
 component  : desktop.deepin.core
 summary    : Account faces for Linux Deepin
 description: |

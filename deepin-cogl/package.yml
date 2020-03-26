@@ -3,7 +3,12 @@ version    : 1.22.5
 release    : 1
 source     :
     - git|https://github.com/linuxdeepin/deepin-cogl.git : 1.22.5
-license    : MIT
+license    :
+    - BSD-3-Clause
+    - LGPL-2.0-or-later
+    - MIT
+    - Public Domain
+    - SGI-B-2.0
 component  : desktop.deepin.core
 conflicts  :
     - cogl

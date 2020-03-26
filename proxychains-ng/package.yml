@@ -3,7 +3,7 @@ version    : 4.14
 release    : 1
 source     :
     - git|https://github.com/rofl0r/proxychains-ng.git : v4.14
-license    : GPL-2.0-only
+license    : GPL-2.0-or-later
 component  : network.util
 summary    : A preloader which hooks calls to sockets in dynamically linked programs
     and redirects it through one or more socks/http proxies

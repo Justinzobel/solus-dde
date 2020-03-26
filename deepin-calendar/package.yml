@@ -9,8 +9,8 @@ summary    : Calendar for Deepin Desktop Environment.
 description: |
     Deepin Calender is an easy calendar tool developed by Deepin Technology, main features current date, solar terms, lunar calendar and world holidays.
 builddeps  :
-    - deepin-gettext-tools
     - pkgconfig(dtkwidget)
+    - deepin-gettext-tools
     - qt5-tools-devel
 rundeps    :
     - deepin-qt5integration

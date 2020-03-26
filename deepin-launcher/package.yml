@@ -13,10 +13,10 @@ builddeps  :
     - pkgconfig(dtkwidget)
     - pkgconfig(gsettings-qt)
     - pkgconfig(Qt5Svg)
+    - pkgconfig(Qt5UiTools)
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(xcb-ewmh)
     - pkgconfig(xcb)
-    - qt5-tools-devel
 setup      : |
     %cmake_ninja -DWITHOUT_UNINSTALL_APP=1
 build      : |
