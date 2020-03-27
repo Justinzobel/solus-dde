@@ -1,6 +1,6 @@
 name       : deepin-qt5integration
 version    : 5.0.0
-release    : 1
+release    : 2
 source     :
     - git|https://github.com/linuxdeepin/qt5integration.git : 5.0.0
 license    : GPL-3.0-or-later
@@ -12,9 +12,9 @@ builddeps  :
     - pkgconfig(dtkwidget)
     - pkgconfig(gtk+-2.0)
     - pkgconfig(mtdev)
+    - pkgconfig(Qt5UiTools)
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(Qt5Xdg)
-    - qt5-tools-devel
 rundeps    :
     - deepin-qt5dxcb-plugin
 setup      : |

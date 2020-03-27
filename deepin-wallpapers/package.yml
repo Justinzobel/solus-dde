@@ -1,6 +1,6 @@
 name       : deepin-wallpapers
 version    : 1.7.7
-release    : 1
+release    : 2
 source     :
     - git|https://github.com/linuxdeepin/deepin-wallpapers.git : 1.7.7
 license    :
@@ -23,3 +23,6 @@ install    : |
     cp -r image-blur "${installdir}/var/cache/"
     # Remove these as they're not license-friendly
     rm -rf %installroot%/usr/share/wallpapers/deepin-private
+    ln -s ../../wallpapers/deepin/Hummingbird_by_Shu_Le.jpg "${installdir}/usr/share/backgrounds/deepin/desktop.jpg"
+    ln -s $(echo -n /usr/share/wallpapers/deepin/Hummingbird_by_Shu_Le.jpg | md5sum | cut -d " " -f 1).jpg \
+        "${installdir}"/var/cache/image-blur/$(echo -n /usr/share/backgrounds/deepin/desktop.jpg | md5sum | cut -d " " -f 1).jpg

@@ -1,3 +1,4 @@
+deepin-qt5integration
 deepin-desktop-schemas
 deepin-cogl
 deepin-clutter
@@ -34,7 +35,6 @@ liblightdm-qt5
 deepin-movie
 deepin-dock
 libqtxdg
-deepin-qt5integration
 disomaster
 libmongoc
 treefrog-framework

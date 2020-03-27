@@ -1,6 +1,6 @@
 name       : deepin-session-ui
 version    : 5.0.0
-release    : 1
+release    : 2
 source     :
     - git|https://github.com/linuxdeepin/dde-session-ui.git : 5.0.0
 license    : GPL-3.0-or-later
@@ -25,6 +25,7 @@ builddeps  :
 rundeps    :
     - deepin-daemon
 setup      : |
+    sed -i 's|/usr/share/backgrounds/default_background.jpg|/usr/share/backgrounds/deepin/desktop.jpg|' widgets/*.cpp
     %qmake PREFIX=%PREFIX% LIB_INSTALL_DIR=%libdir%
 build      : |
     %make
