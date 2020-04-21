@@ -5,4 +5,6 @@ find . -iname "pspec*.xml" -type f -exec rm -rf {} \;
 find . -iname "abi_used_libs" -type f -exec rm -rf {} \;
 # Removing eopkgs
 find . -iname "*.eopkg" -type f -exec rm -rf {} \;
+# Removing bin extras
+rm -f bin/*
 rm -f success failures
