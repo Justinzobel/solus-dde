@@ -1,6 +1,6 @@
 name       : deepin-desktop-base
 version    : 2019.06.14
-release    : 3
+release    : 1
 source     :
     - git|https://github.com/linuxdeepin/deepin-desktop-base.git : 2019.06.14
 license    : GPL-3.0-or-later

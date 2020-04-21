@@ -1,6 +1,6 @@
 name       : deepin-session-ui
 version    : 5.0.0
-release    : 2
+release    : 1
 source     :
     - git|https://github.com/linuxdeepin/dde-session-ui.git : 5.0.0
 license    : GPL-3.0-or-later

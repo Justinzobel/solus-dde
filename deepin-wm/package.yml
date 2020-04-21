@@ -1,6 +1,6 @@
 name       : deepin-wm
 version    : 1.9.38
-release    : 2
+release    : 1
 source     :
     - git|https://github.com/linuxdeepin/deepin-wm.git : 1.9.38
 license    : GPL-3.0-or-later

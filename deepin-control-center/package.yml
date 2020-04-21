@@ -1,6 +1,6 @@
 name       : deepin-control-center
 version    : 5.0.0
-release    : 3
+release    : 1
 source     :
     - https://github.com/linuxdeepin/dde-control-center/archive/5.0.0.tar.gz : 4b8c4cb191aef890391e001e29606edab54507a2209795d27beb52e21ccddb6c
 license    : GPL-3.0-or-later

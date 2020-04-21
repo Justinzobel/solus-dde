@@ -1,6 +1,6 @@
 name       : deepin-calendar
 version    : 5.0.1
-release    : 27
+release    : 1
 source     :
     - git|https://github.com/linuxdeepin/dde-calendar.git : 5.0.1
 license    : GPL-3.0-or-later
