@@ -9,8 +9,8 @@ summary    : Deepin network utilities
 description: |
     Deepin network utilities
 builddeps  :
-    - pkgconfig(dframeworkdbus)
     - qt5-tools-devel
+    - deepin-qt-dbus-factory
 setup      : |
     %qmake PREFIX=%PREFIX% LIB_INSTALL_DIR=%libdir%
 build      : |

@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>deepin-menu</Name>
+        <Packager>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Deepin Menu is the unified menu service for Deepin Desktop Environment.</Summary>
+        <Description xml:lang="en">Deepin Menu is the unified menu service for Deepin Desktop Environment.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-menu</Name>
+        <Summary xml:lang="en">Deepin Menu is the unified menu service for Deepin Desktop Environment.</Summary>
+        <Description xml:lang="en">Deepin Menu is the unified menu service for Deepin Desktop Environment.
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="config">/etc/xdg/autostart/deepin-menu.desktop</Path>
+            <Path fileType="executable">/usr/bin/deepin-menu</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.deepin.menu.service</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-21</Date>
+            <Version>3.4.8</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Update>
+    </History>
+</PISI>

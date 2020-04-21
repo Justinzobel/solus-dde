@@ -9,12 +9,12 @@ summary    : Deepin Menu is the unified menu service for Deepin Desktop Environm
 description: |
     Deepin Menu is the unified menu service for Deepin Desktop Environment.
 builddeps  :
-    - pkgconfig(dframeworkdbus)
     - pkgconfig(dtkwidget)
     - pkgconfig(gl)
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(x11)
     - pkgconfig(xcb)
+    - deepin-qt-dbus-factory
     - qt5-tools-devel
 setup      : |
     %qmake PREFIX=%PREFIX% LIB_INSTALL_DIR=%libdir%

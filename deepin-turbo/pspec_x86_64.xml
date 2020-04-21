@@ -1,0 +1,65 @@
+<PISI>
+    <Source>
+        <Name>deepin-turbo</Name>
+        <Packager>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Packager>
+        <License>LGPL-2.1-or-later</License>
+        <PartOf>desktop.deepin</PartOf>
+        <Summary xml:lang="en">deepin-trubo is a deepin project that derives from Applauncherd.</Summary>
+        <Description xml:lang="en">deepin-trubo is a deepin project that derives from Applauncherd.
+Applauncherd is a daemon that helps to launch applications faster by preloading dynamically linked libraries and caching stuff. It also saves memory, because all launched applications share certain resources.
+we built a booster type called dtkwidget-booster in this project to support launching dtk-based Apps faster.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>deepin-turbo</Name>
+        <Summary xml:lang="en">deepin-trubo is a deepin project that derives from Applauncherd.</Summary>
+        <Description xml:lang="en">deepin-trubo is a deepin project that derives from Applauncherd.
+Applauncherd is a daemon that helps to launch applications faster by preloading dynamically linked libraries and caching stuff. It also saves memory, because all launched applications share certain resources.
+we built a booster type called dtkwidget-booster in this project to support launching dtk-based Apps faster.
+</Description>
+        <PartOf>desktop.deepin</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/deepin-turbo-invoker</Path>
+            <Path fileType="executable">/usr/bin/deepin-turbo-single-instance</Path>
+            <Path fileType="library">/usr/lib/deepin-turbo/booster-dtkwidget</Path>
+            <Path fileType="library">/usr/lib/systemd/user/deepin-turbo-booster-dtkwidget.service</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>deepin-turbo-devel</Name>
+        <Summary xml:lang="en">Development files for deepin-turbo</Summary>
+        <Description xml:lang="en">deepin-trubo is a deepin project that derives from Applauncherd.
+Applauncherd is a daemon that helps to launch applications faster by preloading dynamically linked libraries and caching stuff. It also saves memory, because all launched applications share certain resources.
+we built a booster type called dtkwidget-booster in this project to support launching dtk-based Apps faster.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">deepin-turbo</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/deepin-turbo/appdata.h</Path>
+            <Path fileType="header">/usr/include/deepin-turbo/booster.h</Path>
+            <Path fileType="header">/usr/include/deepin-turbo/connection.h</Path>
+            <Path fileType="header">/usr/include/deepin-turbo/daemon.h</Path>
+            <Path fileType="header">/usr/include/deepin-turbo/launcherlib.h</Path>
+            <Path fileType="header">/usr/include/deepin-turbo/logger.h</Path>
+            <Path fileType="header">/usr/include/deepin-turbo/protocol.h</Path>
+            <Path fileType="header">/usr/include/deepin-turbo/singleinstance.h</Path>
+            <Path fileType="header">/usr/include/deepin-turbo/socketmanager.h</Path>
+            <Path fileType="library">/usr/lib/libdeepin-turbo.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-21</Date>
+            <Version>0.0.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Update>
+    </History>
+</PISI>

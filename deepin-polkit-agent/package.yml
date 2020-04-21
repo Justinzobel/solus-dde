@@ -9,10 +9,10 @@ summary    : Deepin Polkit Agent
 description: |
     Deepin Polkit Agent
 builddeps  :
-    - pkgconfig(dframeworkdbus)
     - pkgconfig(dtkwidget)
     - pkgconfig(glu)
     - pkgconfig(polkit-qt5-1)
+    - deepin-qt-dbus-factory
     - qt5-tools-devel
 setup      : |
     sed -i 's|dcombobox.h|QComboBox|' AuthDialog.h

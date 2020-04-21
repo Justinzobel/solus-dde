@@ -10,7 +10,7 @@ popd () {
 rootdir="$(pwd)/"
 mkdir ${rootdir}/bin
 
-buildfile=order-group1
+buildfile=order-group7
 
 for i in $(cat ${rootdir}${buildfile})
   do

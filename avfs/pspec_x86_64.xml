@@ -1,0 +1,97 @@
+<PISI>
+    <Source>
+        <Name>avfs</Name>
+        <Packager>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <License>LGPL-2.0-or-later</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">AVFS enables all programs to access archived, compressed, or remote files transparently.</Summary>
+        <Description xml:lang="en">AVFS is a system which enables all programs to look inside archived or compressed files, or access remote files without recompiling the programs or changing the kernel.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>avfs</Name>
+        <Summary xml:lang="en">AVFS enables all programs to access archived, compressed, or remote files transparently.</Summary>
+        <Description xml:lang="en">AVFS is a system which enables all programs to look inside archived or compressed files, or access remote files without recompiling the programs or changing the kernel.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/avfs-config</Path>
+            <Path fileType="executable">/usr/bin/avfsd</Path>
+            <Path fileType="executable">/usr/bin/davpass</Path>
+            <Path fileType="executable">/usr/bin/ftppass</Path>
+            <Path fileType="executable">/usr/bin/mountavfs</Path>
+            <Path fileType="executable">/usr/bin/umountavfs</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/README</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/a</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/apt</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/audio</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/bpp</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/deb</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/deba</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/debd</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/dpkg</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/extfs.ini</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/ftplist</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/hp48</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/iso9660</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/lslR</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/mailfs</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/patchfs</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/rpm</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/rpms</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/trpm</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/u7z</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uace</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uadf</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uar</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uarc</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uarj</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uc1541</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/ucab</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/ucpio</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/udar</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uextrar</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uha</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uimg</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/ulha</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/upp</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uxdms</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uxpk</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uzip</Path>
+            <Path fileType="library">/usr/lib64/avfs/extfs/uzoo</Path>
+            <Path fileType="library">/usr/lib64/libavfs.so.0</Path>
+            <Path fileType="library">/usr/lib64/libavfs.so.0.0.2</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>avfs-devel</Name>
+        <Summary xml:lang="en">Development files for avfs</Summary>
+        <Description xml:lang="en">AVFS is a system which enables all programs to look inside archived or compressed files, or access remote files without recompiling the programs or changing the kernel.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">avfs</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/avfs.h</Path>
+            <Path fileType="header">/usr/include/virtual.h</Path>
+            <Path fileType="library">/usr/lib64/libavfs.a</Path>
+            <Path fileType="library">/usr/lib64/libavfs.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/avfs.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-21</Date>
+            <Version>1.1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Update>
+    </History>
+</PISI>

@@ -15,8 +15,8 @@ builddeps  :
     - deepin-anything
     - deepin-dock-devel
     - deepin-gettext-tools
+    - deepin-qt-dbus-factory
     - kcodecs-devel
-    - pkgconfig(dframeworkdbus)
     - pkgconfig(disomaster)
     - pkgconfig(dtkwidget)
     - pkgconfig(gsettings-qt)

@@ -9,7 +9,6 @@ summary    : Launcher for the Deepin Desktop Environment.
 description: |
     Launcher for the Deepin Desktop Environment.
 builddeps  :
-    - pkgconfig(dframeworkdbus)
     - pkgconfig(dtkwidget)
     - pkgconfig(gsettings-qt)
     - pkgconfig(Qt5Svg)
@@ -17,6 +16,7 @@ builddeps  :
     - pkgconfig(Qt5X11Extras)
     - pkgconfig(xcb-ewmh)
     - pkgconfig(xcb)
+    - deepin-qt-dbus-factory
 setup      : |
     sed -i 's|/usr/share/backgrounds/default_background.jpg|/usr/share/backgrounds/deepin/desktop.jpg|' src/boxframe/*.cpp
     %cmake_ninja -DWITHOUT_UNINSTALL_APP=1

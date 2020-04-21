@@ -9,12 +9,12 @@ summary    : An implementation of Gnome Desktop Notifications Specification
 description: |
     An implementation of Gnome Desktop Notifications Specification
 builddeps  :
-    - pkgconfig(dframeworkdbus)
     - pkgconfig(dtkwidget)
     - pkgconfig(glu)
     - pkgconfig(gsettings-qt)
     - pkgconfig(Qt5Svg)
     - qt5-tools-devel
+    - deepin-qt-dbus-factory
 setup      : |
     %qmake PREFIX=%PREFIX% LIB_INSTALL_DIR=%libdir%
 build      : |

@@ -9,7 +9,6 @@ summary    : Base development tool of all C++/Qt Developer work on Deepin.
 description: |
     Deepin Tool Kit (Dtk) is the base development tool of all C++/Qt Developer work on Deepin.
 builddeps  :
-    - pkgconfig(dframeworkdbus)
     - pkgconfig(dtkcore)
     - pkgconfig(gsettings-qt)
     - pkgconfig(librsvg-2.0)
@@ -22,6 +21,7 @@ builddeps  :
     - pkgconfig(xcb-util)
     - pkgconfig(xext)
     - pkgconfig(xi)
+    - deepin-qt-dbus-factory
     - qt5-tools-devel
 setup      : |
     %qmake PREFIX=%PREFIX% LIB_INSTALL_DIR=%libdir%

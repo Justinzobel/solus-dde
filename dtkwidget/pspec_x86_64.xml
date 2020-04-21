@@ -1,0 +1,236 @@
+<PISI>
+    <Source>
+        <Name>dtkwidget</Name>
+        <Packager>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Base development tool of all C++/Qt Developer work on Deepin.</Summary>
+        <Description xml:lang="en">Deepin Tool Kit (Dtk) is the base development tool of all C++/Qt Developer work on Deepin.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>dtkwidget</Name>
+        <Summary xml:lang="en">Base development tool of all C++/Qt Developer work on Deepin.</Summary>
+        <Description xml:lang="en">Deepin Tool Kit (Dtk) is the base development tool of all C++/Qt Developer work on Deepin.
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/libdtk-2.1.1/DWidget/bin/dtk-svgc</Path>
+            <Path fileType="library">/usr/lib64/libdtkwidget.so.2</Path>
+            <Path fileType="library">/usr/lib64/libdtkwidget.so.2.1</Path>
+            <Path fileType="library">/usr/lib64/libdtkwidget.so.2.1.1</Path>
+            <Path fileType="library">/usr/lib64/qt5/mkspecs/modules/qt_lib_dtkwidget.pri</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_am_ET.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_ar.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_ast.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_az.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_bg.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_bn.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_ca.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_cs.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_da.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_de.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_el.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_es.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_es_419.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_fi.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_fr.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_gl_ES.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_he.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_hr.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_hu.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_id.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_it.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_ja.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_ko.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_lt.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_ms.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_nb.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_ne.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_nl.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_pl.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_pt.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_ru.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_sk.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_sl.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_sr.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_tr.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_uk.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/libdtk-2.1.1/DWidget/translations/dtkwidget_zh_TW.qm</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>dtkwidget-devel</Name>
+        <Summary xml:lang="en">Development files for dtkwidget</Summary>
+        <Description xml:lang="en">Deepin Tool Kit (Dtk) is the base development tool of all C++/Qt Developer work on Deepin.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">dtkwidget</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DCore</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DAboutDialog</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DAnchors</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DApplication</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DArrowButton</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DArrowLineExpand</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DBackgroundGroup</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DBlurEffectWidget</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DClipEffectWidget</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DCrumbEdit</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DDesktopServices</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DExpandGroup</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DFileDialog</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DFileIconProvider</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DForeignWindow</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DGraphicsClipEffect</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DGraphicsDropShadowEffect</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DHiDPIHelper</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DLineEdit</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DMainWindow</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DPageIndicator</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DPasswdEditAnimated</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DPlatformWindowHandle</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSearchEdit</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSegmentedControl</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSegmentedHighlight</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSettingsDialog</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSettingsWidgetFactory</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSimpleListItem</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSimpleListView</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSpinner</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DStyleOption</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DStyleOptionLineEdit</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSuggestButton</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DSvgRenderer</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DTabBar</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DThemeManager</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DThumbnailProvider</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DTitlebar</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DToast</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DTrashManager</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DVideoWidget</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DWaterProgress</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DWidgetUtil</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DWindowGroupLeader</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DWindowManagerHelper</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/DtkWidgets</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/daboutdialog.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dabstractdialog.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/danchors.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dapplication.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/darrowbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/darrowlineexpand.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/darrowrectangle.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dbackgroundgroup.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dbasebutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dbaseexpand.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dbaseline.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dblureffectwidget.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dborderlesswidget.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dborderlesswindow.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dboxwidget.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dbuttonlist.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dcircleprogress.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dclipeffectwidget.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dconstants.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dcrumbedit.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/ddesktopservices.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/ddialog.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/denhancedwidget.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dexpandgroup.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dfilechooseredit.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dfiledialog.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dfileiconprovider.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dflowlayout.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dforeignwindow.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dgraphicsclipeffect.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dgraphicsgloweffect.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dheaderline.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dhidpihelper.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dialog_constants.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dimagebutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dinputdialog.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dinputdialog_p.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dipv4lineedit.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dlabel.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dlineedit.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dlinkbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dlistview.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dlistwidget.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dloadingindicator.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dmainwindow.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dmpriscontrol.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/doption.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/doptionlist.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dpageindicator.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dpasswdeditanimated.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dpasswordedit.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dpicturesequenceview.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dplatformwindowhandle.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dpushbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dregionmonitor.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dscrollarea.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dscrollbar.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dsearchedit.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dsegmentedcontrol.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dseparatorhorizontal.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dseparatorvertical.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dsettingsdialog.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dsettingswidgetfactory.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dshortcutedit.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dsimplelistitem.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dsimplelistview.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dslider.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dspinbox.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dspinner.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dstackwidget.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dstyleoption.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dsuggestbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dsvgrenderer.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dswitchbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dswitchlineexpand.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtabbar.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtextbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtextedit.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dthememanager.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dthumbnailprovider.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtickeffect.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtitlebar.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtkwidget_config.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtkwidget_global.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtoast.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dtrashmanager.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dvideowidget.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dwaterprogress.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dwidgetutil.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dwindowclosebutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dwindowgroupleader.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dwindowmanagerhelper.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dwindowmaxbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dwindowminbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dwindowoptionbutton.h</Path>
+            <Path fileType="header">/usr/include/libdtk-2.1.1/DWidget/dx11window.h</Path>
+            <Path fileType="library">/usr/lib64/cmake/DtkWidget/DtkWidgetConfig.cmake</Path>
+            <Path fileType="library">/usr/lib64/libdtkwidget.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/dtkwidget.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-21</Date>
+            <Version>2.1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Update>
+    </History>
+</PISI>

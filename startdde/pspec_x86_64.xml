@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>startdde</Name>
+        <Packager>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Summary xml:lang="en">Starter of deepin desktop environment</Summary>
+        <Description xml:lang="en">Launches Deepin Desktop Envrionment components and invoking user&apos;s custom applications which compliant with xdg autostart specification.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>startdde</Name>
+        <Summary xml:lang="en">Starter of deepin desktop environment</Summary>
+        <Description xml:lang="en">Launches Deepin Desktop Envrionment components and invoking user&apos;s custom applications which compliant with xdg autostart specification.
+</Description>
+        <PartOf>desktop.deepin.core</PartOf>
+        <Files>
+            <Path fileType="config">/etc/X11/Xsession.d/00deepin-dde-env</Path>
+            <Path fileType="executable">/usr/bin/startdde</Path>
+            <Path fileType="executable">/usr/sbin/deepin-fix-xauthority-perm</Path>
+            <Path fileType="executable">/usr/sbin/deepin-session</Path>
+            <Path fileType="data">/usr/share/lightdm/lightdm.conf.d/60-deepin.conf</Path>
+            <Path fileType="data">/usr/share/startdde/auto_launch.json</Path>
+            <Path fileType="data">/usr/share/startdde/memchecker.json</Path>
+            <Path fileType="data">/usr/share/xsessions/deepin.desktop</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-21</Date>
+            <Version>5.0.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Update>
+    </History>
+</PISI>

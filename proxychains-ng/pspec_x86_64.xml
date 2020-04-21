@@ -1,0 +1,47 @@
+<PISI>
+    <Source>
+        <Name>proxychains-ng</Name>
+        <Packager>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>network.util</PartOf>
+        <Summary xml:lang="en">A preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies</Summary>
+        <Description xml:lang="en">ProxyChains is a UNIX program, that hooks network-related libc functions in DYNAMICALLY LINKED programs via a preloaded DLL (dlsym(), LD_PRELOAD) and redirects the connections through SOCKS4a/5 or HTTP proxies. It supports TCP only (no UDP/ICMP etc).
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>proxychains-ng</Name>
+        <Summary xml:lang="en">A preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies</Summary>
+        <Description xml:lang="en">ProxyChains is a UNIX program, that hooks network-related libc functions in DYNAMICALLY LINKED programs via a preloaded DLL (dlsym(), LD_PRELOAD) and redirects the connections through SOCKS4a/5 or HTTP proxies. It supports TCP only (no UDP/ICMP etc).
+</Description>
+        <PartOf>network.util</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/proxychains4</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>proxychains-ng-devel</Name>
+        <Summary xml:lang="en">Development files for proxychains-ng</Summary>
+        <Description xml:lang="en">ProxyChains is a UNIX program, that hooks network-related libc functions in DYNAMICALLY LINKED programs via a preloaded DLL (dlsym(), LD_PRELOAD) and redirects the connections through SOCKS4a/5 or HTTP proxies. It supports TCP only (no UDP/ICMP etc).
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">proxychains-ng</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="library">/usr/lib64/libproxychains4.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-21</Date>
+            <Version>4.14</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Automated Package Build</Name>
+            <Email>no.email.set.in.config</Email>
+        </Update>
+    </History>
+</PISI>
