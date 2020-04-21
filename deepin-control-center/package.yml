@@ -24,7 +24,6 @@ builddeps  :
     - pkgconfig(xext)
     - qt5-tools-devel
 rundeps    :
-    - deepin-account-faces
     - deepin-api
     - deepin-daemon
     - deepin-qt-dbus-factory

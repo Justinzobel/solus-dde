@@ -1,3 +1,24 @@
 #!/bin/bash
 rootdir="/home/justin/Builds/solus-dde/"
-watch 'echo "Successful:" && tail -n 10 ${rootdir}success && echo && echo "Total eopkgs: $(ls -l /var/lib/solbuild/local/*.eopkg | wc -l)" && echo && if [[ -e ${rootdir}failures ]];then echo Failures && tail -n 10 ${rootdir}failures;fi'
+
+function success {
+  if [[ -e ${rootdir}success ]] 
+    then
+      echo "Successful ($(wc -l success | cut -d " " -f 1)):" && tail -n 10 ${rootdir}success
+    else
+      echo "No successful builds yet."
+  fi
+  echo
+}
+
+function failures {
+  if [[ -e ${rootdir}failures ]]
+    then
+      echo "Failures ($(wc -l failures | cut -d " " -f 1)):" && tail -n 10 ${rootdir}failures
+    else
+      echo "No failures so far, hoorah!"
+  fi
+}
+
+success
+failures

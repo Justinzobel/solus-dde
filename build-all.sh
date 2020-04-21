@@ -8,17 +8,26 @@ popd () {
 }
 
 rootdir="$(pwd)/"
+mkdir ${rootdir}/bin
 
-for i in $(cat ${rootdir}order)
+buildfile=order-group5
+
+for i in $(cat ${rootdir}${buildfile})
   do
     pushd ${rootdir}${i}
+    # solbuild build -p main-x86_64 package.yml
     ypkg -f package.yml
     if [[ $(ls -1 *.eopkg | wc -l) -gt 0 ]]
       then
         echo ${i} >> ${rootdir}success
-        eopkg it *.eopkg
+        mv *.eopkg ${rootdir}/bin/
         popd
+        #pushd /var/lib/solbuild/local
+        #eopkg index --skip-signing .
+        #spopd
       else
         echo ${i} >> ${rootdir}failures
     fi
+    rm -rf ~/YPKG/sources/*
+    #read -p "Continue? " answer
 done
